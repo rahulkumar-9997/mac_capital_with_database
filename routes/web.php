@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\FrontHomeController;
+use App\Http\Controllers\Frontend\SiteMapController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -149,4 +150,4 @@ Route::POST('contact-us/store', [FrontHomeController::class, 'contactUsSubmit'])
 Route::post('each-contact', [FrontHomeController::class, 'eachContactForm'])->name('each-contact');
 Route::POST('each-contact/store', [FrontHomeController::class, 'eachContactSubmitForm'])->name('each-contact.store');
 Route::get('fixed-deposit', [FrontHomeController::class, 'fixedDeposit'])->name('fixed-deposit');
-
+Route::get('sitemap.xml', [SiteMapController::class, 'index'])->name('sitemap');

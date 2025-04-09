@@ -118,9 +118,47 @@
                                                                         <canvas id="loanChart" height="257" width="257"></canvas>
 
                                                                     </div>
-                                                                    <div class="loan-summary">
+                                                                    <div class="SIP-chart-child loan-summary" id="ebitda-val">
+                                                                        <div class="legend-parent">
+                                                                            <div class="legend-bg"></div>
+                                                                            <div class="legend-data">
+                                                                                <p class="legend-txt">Monthly EMI</p>
+                                                                                <p class="legend-value SIP-initial-value">
+                                                                                    <span class="emi-amount">0</span>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="legend-parent">
+                                                                            <div class="legend-bg"></div>
+                                                                            <div class="legend-data">
+                                                                                <p class="legend-txt">Principal Amount</p>
+                                                                                <p class="legend-value SIP-initial-value">
+                                                                                    <span class="principal-amount">0</span>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="legend-parent">
+                                                                            <div class="legend-bg"></div>
+                                                                            <div class="legend-data">
+                                                                                <p class="legend-txt">Total Interest</p>
+                                                                                <p class="legend-value SIP-initial-value">
+                                                                                    <span class="interest-amount">0</span>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="legend-parent">
+                                                                            <div class="legend-bg"></div>
+                                                                            <div class="legend-data">
+                                                                                <p class="legend-txt">Total Amount</p>
+                                                                                <p class="legend-value SIP-initial-value">
+                                                                                    <span class="total-payable">0</span>
+                                                                                </p>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!--<div class="loan-summary">
                                                                         <div class="loan-display">
-                                                                            
+
                                                                             <div class="emi-info mb-3">
                                                                                 <div class="d-flex justify-content-between align-items-center">
                                                                                     <span>Monthly EMI</span>
@@ -147,7 +185,7 @@
                                                                             </div>
                                                                         </div>
 
-                                                                    </div>
+                                                                    </div>-->
                                                                 </div>
                                                             </div>
                                                         </div>

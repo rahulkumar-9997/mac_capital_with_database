@@ -30845,3 +30845,90 @@ body.side_menu_toggled .style-switcher {
     display: inline-block;
   }
 }/*# sourceMappingURL=theme-css.css.map */
+
+/*fd csss*/
+.fd-section{
+    /* background: #fff; */
+    background: #f3fff4a3;
+    box-shadow: var(--box-shadow);
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+.fd-header-section{
+  padding: 20px 20px 5px 20px
+}
+.fd-table-section, .note-section{
+  padding: 10px;
+}
+.h-amt{
+    font-size: 18px;
+    line-height: 20px;
+}
+.company-title h3{
+    font-size: 22px;
+    line-height: 25px;
+    font-weight: 700;
+    color: var(--heading-dark);
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    font-family: var(--creote-family-one);
+    position: relative;
+}
+.company-title h3:before {
+  position: absolute;
+  content: "";
+  width: 50px;
+  height: 3px;
+  background: var(--primary-color-one);
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  -ms-transition: 0.5s ease-in-out;
+}
+.table-responsive {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.table-responsive table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.note-section h4{
+  color: var(--primary-color-one);
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 7px;
+}
+.note-section p{
+  margin-bottom: 5px;
+}
+.fd-section:hover {
+  border: 1.5px solid #204786;
+  border-radius: 8px;
+  background-color: #ECF9FF;
+}
+.fd-table table th, .fd-table table td{
+  padding: 4px;
+}
+.fd-table table th{
+  font-size: 14px;
+}
+.head-datep .h-date{
+  font-size: 20px;
+  line-height: 22px;
+ 
+}
+.head-datep{
+  margin-bottom: 20px;
+  text-align: right;
+}
+.fd-chield .fd-header-section{
+    padding: 6px 10px 5px 10px;
+}

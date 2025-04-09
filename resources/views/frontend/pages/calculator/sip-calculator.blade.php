@@ -118,10 +118,7 @@
                                           <div class="content_bx">
                                              <div class="opening-statement">
                                                 <p>The total value of your investment after <span class="selected-years">0 Years</span> will be</p>
-                                                <div class="investment-amount">
-                                                   <span class="rupee-symbol">₹</span>
-                                                   <span class="amount" id="SIP-total-value">0</span>
-                                                </div>
+                                                
                                              </div>
                                              <div class="graph">
                                                 <div class="SIP-chart-parent">
@@ -148,6 +145,17 @@
                                                                <p class="legend-value SIP-final-val">
                                                                   <span> ₹ </span>
                                                                   <span id="SIP-final-val">0</span>
+                                                               </p>
+                                                            </div>
+                                                         </div>
+                                                         <div class="legend-parent">
+                                                            <div class="legend-bg legend-bg-violet"></div>
+                                                            <div class="legend-data">
+                                                               <p class="legend-txt">Total Amount</p>
+                                                               <p class="legend-value SIP-final-val">
+                                                                  <span> ₹ </span>
+                                                                  <span class="amount" id="SIP-total-value">0</span>
+                                                                 
                                                                </p>
                                                             </div>
                                                          </div>
