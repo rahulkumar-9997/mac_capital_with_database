@@ -21,7 +21,7 @@ class ContactFormMail extends Mailable
     public function build()
     {
         return $this->view('frontend.mail.contact-form-mail')
-        ->from('maccapital@info', 'Mac Capital') // Sender's email and name
+        ->from('maccapitalindia@gmail.com', 'MAC Capital Services (P) LTD') 
         ->subject('Mac Capital Contact Form enquiry');
     }
 }

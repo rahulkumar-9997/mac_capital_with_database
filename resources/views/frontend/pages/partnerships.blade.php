@@ -5,27 +5,18 @@
 
 @section('main-content')
 <div class="page_header_default style_one ">
-   <div class="parallax_cover">
-      <img src="{{asset('fronted/mac-image/home/bread-3.jpg')}}" alt="about us banner" class="cover-parallax">
-   </div>
+   
    <div class="page_header_content">
       <div class="auto-container">
          <div class="row">
             <div class="col-md-12">
                <div class="banner_title_inner">
                   <div class="title_page">
-                    Partnerships
+                    <h1>Partnerships</h1>
                   </div>
                </div>
             </div>
-            <div class="col-lg-12">
-               <div class="breadcrumbs creote">
-                  <ul class="breadcrumb m-auto">
-                     <li><a href="{{URL::to('/')}}">Home</a> </li>
-                     <li class="active">Partnerships</li>
-                  </ul>
-               </div>
-            </div>
+            
          </div>
       </div>
    </div>

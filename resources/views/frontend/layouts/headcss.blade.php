@@ -5,7 +5,16 @@
 <title>@yield('title')</title>
 <meta name="description" content="@yield('description')">
 <meta name="keywords" content="@yield('keywords')">
+<meta name="csrf-token" content="{{ csrf_token() }}">
 <link rel="canonical" href="{{ url()->current() }}" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FS2B0NCWK3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FS2B0NCWK3');
+</script>
 <link rel="icon" href="{{asset('fronted/mac-image/logo/fav-icon.png')}}" type="image/x-icon">
 <link rel='stylesheet'
       href='https://fonts.googleapis.com/css?family=Spartan%3A400%2C500%2C600%2C700%2C800%2C900%7CInter%3A300%2C400%2C500%2C600%2C700%2C800%2C900&amp;subset=latin%2Clatin-ext'
@@ -28,3 +37,5 @@
 <link rel='stylesheet' href="{{asset('fronted/css/woocommerce.css')}}" type='text/css' media='all' />
 <link rel='stylesheet' href="{{asset('fronted/css/mac-capital.css')}}" type='text/css' media='all' />
 <!----woocommerce---->
+
+@stack('css')

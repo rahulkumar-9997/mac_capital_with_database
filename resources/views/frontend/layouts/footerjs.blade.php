@@ -23,5 +23,4 @@
 <script type='text/javascript' src="{{asset('fronted/js/mac.js')}}"></script>
 <!---========================== javascript ==========================-->
 
-@stack('scripts')
 
