@@ -127,10 +127,10 @@
                <div class="note-section">
                   <h4>Note :</h4>
                   <p>
-                     0.25% Xtra for Senior Citizen
+                     0.25% Xtra for Senior Citizen.
                   </p>
                   <p>
-                     Pan Card Xerox ,Photo & Address Proof Required of all Investors
+                     Pan Card Xerox, Photo & Address Proof Required of all Investors.
                   </p>
                </div>
                <div class="fd-chield">
@@ -375,10 +375,10 @@
                <div class="note-section">
                   <h4>Note :</h4>
                   <p>
-                     0.25% Xtra for Senior Citizen,KYC reqruied of all investors
+                     0.25% Xtra for Senior Citizen, KYC Reqruied of all Investors.
                   </p>
                   <p>
-                     Chq in favour of " ICICI Home Fin- FD A/c "
+                  Cheque in Favour of "ICICI Home Fin-FD A/c".
                   </p>
                </div>
                <div class="fd-chield">
@@ -433,10 +433,10 @@
                   <div class="note-section">
                      <h4>Note :</h4>
                      <p>
-                        0.25% Xtra for Senior Citizen,KYC Required of all Investors .
+                        0.25% Xtra for Senior Citizen, KYC Required of all Investors .
                      </p>
                      <p>
-                        Chq in favour of " ICICI Home Fin- FD A/c "
+                     Cheque in Favour of "ICICI Home Fin-FD A/c".
                      </p>
 
                   </div>
@@ -660,10 +660,10 @@
                      Senior Citizen will get 0.25% Extra.
                   </p>
                   <p>
-                     Pan Card Xerox ,Photo and Address Proof Required of all Investors.
+                     Pan Card Xerox, Photo and Address Proof Required of all Investors.
                   </p>
                   <p>
-                     Chq in favour of " MMFSL FIXED DEPOSIT"
+                  Cheque in favour of "MMFSL FIXED DEPOSIT".
                   </p>
                </div>
 
@@ -886,10 +886,10 @@
                      Senior Citizen will get 0.25% Extra.
                   </p>
                   <p>
-                     Pan Card Xerox ,Photo and Address Proof Required of all Investors.
+                     Pan Card Xerox, Photo and Address Proof Required of all Investors.
                   </p>
                   <p>
-                     Chq in favour of " MMFSL FIXED DEPOSIT"
+                  Cheque in favour of "MMFSL FIXED DEPOSIT".
                   </p>
                </div>
 
@@ -1177,22 +1177,22 @@
                <div class="note-section">
                   <h4>Note :</h4>
                   <p>
-                     Photo,Pan Card Xerox and Address Proof Required of all Investor.
+                     Photo, Pan Card Xerox and Address Proof Required of all Investor.
                   </p>
                   <p>
                      Additional benefit for Sr.Citizen 0.50%.
                   </p>
                   <p>
-                     Additional benefit for Women 0.10%
+                     Additional benefit for Women 0.10%.
                   </p>
                   <p>
-                     Chq in favour of " SHRIRAM FINANCE LIMITED "
+                  Cheque in Favour of "SHRIRAM FINANCE LIMITED".
                   </p>
                   <p>
-                     <strong class="text-danger">* Special deposit- Jubilee Deposit</strong>
+                     <strong class="text-danger">* Special Deposit-Jubilee Deposit</strong>
                      <br>
                      <span class="text-danger">
-                        Minimum mobilization has to be 20 Lacs for the company
+                        Minimum mobilization has to be 20 Lacs for the company.
                      </span>
                      <br>
                      <span class="text-danger">
@@ -1292,13 +1292,13 @@
                      Senior Citizen will get 0.25% .
                   </p>
                   <p>
-                     Chq in Favour of “LIC Housing Finance Limited-Collection A/C."
+                  Cheque in Favour of “LIC Housing Finance Limited-Collection A/C."
                   </p>
                   <p>
-                     Additional Deposit in multiples of Rs. 10000/- ( Monthly/Quarterly).
+                     Additional Deposit in multiples of Rs. 10000/-( Monthly/Quarterly).
                   </p>
                   <p>
-                     Additional Deposit in multiples of Rs. 1000/- ( Yearly).
+                     Additional Deposit in multiples of Rs. 1000/-( Yearly).
                   </p>
                </div>
 
@@ -1439,7 +1439,7 @@
                <div class="note-section">
                   <h4>Note :</h4>
                   <p>
-                     Pan Card and Address proof (AADHAR ) xerox reqd of all Investors.
+                     Pan Card and Address Proof (AADHAR ) Xerox Required of all Investors.
                   </p>
                </div>
                <div class="fd-chield">
@@ -1573,7 +1573,7 @@
                   <div class="note-section">
                      <h4>Note :</h4>
                      <p>
-                        Pan Card and Address proof (AADHAR ) xerox reqd of all Investors.
+                        Pan Card and Address Proof (AADHAR ) Xerox Required of all Investors.
                      </p>
                   </div>
                </div>
@@ -1708,7 +1708,7 @@
                   <div class="note-section">
                      <h4>Note :</h4>
                      <p>
-                        Pan Card and Address proof (AADHAR ) xerox reqd of all Investors.
+                        Pan Card and Address Proof (AADHAR ) Xerox Required of all Investors.
                      </p>
                   </div>
                </div>
