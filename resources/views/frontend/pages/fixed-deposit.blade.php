@@ -1176,6 +1176,7 @@
                </div>
                <div class="note-section">
                   <h4>Note :</h4>
+                  
                   <p>
                      Photo, Pan Card Xerox and Address Proof Required of all Investor.
                   </p>
