@@ -832,5 +832,19 @@ a.call-now-text:focus{
         font-size: 18px;
         line-height: 27px;
     }
+    .fd-table table th,  .fd-table table td{
+        font-size: 14px;
+    }
+    .company-title h3{
+        font-size: 18px;
+    }
+    .pd_zero.fixed-section-top .col-xl-20{
+        width: 100%;
+    }
+    .fixed-section-top .fd-section {
+        border: 1.5px solid #204786;
+        border-radius: 8px;
+        background-color: #ECF9FF;
+    }
     
 }

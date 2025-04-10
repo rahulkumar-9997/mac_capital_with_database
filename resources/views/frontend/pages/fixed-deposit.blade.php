@@ -34,7 +34,7 @@
    <!--===============spacing==============-->
    <div class="pd_top_70"></div>
    <!--===============spacing==============-->
-   <div class="container pd_zero position-relative">
+   <div class="container pd_zero position-relative fixed-section-top">
       <div class="symbols-pulse active">
          <div class="pulse-1"></div>
          <div class="pulse-2"></div>
@@ -130,7 +130,7 @@
                      0.25% Xtra for Senior Citizen
                   </p>
                   <p>
-                     Pan Card Xerox ,Photo & Address proof reqd of all Investors
+                     Pan Card Xerox ,Photo & Address Proof Required of all Investors
                   </p>
                </div>
                <div class="fd-chield">
@@ -208,9 +208,9 @@
                   <div class="note-section">
                      <h4>Note :</h4>
                      <p>
-                       *42 Month only online application.
+                        *42 Month only online application.
                      </p>
-                    
+
                   </div>
                </div>
             </div>
@@ -223,9 +223,9 @@
                      <div class="company-title">
                         <h3>ICICI Home Finance Fixed Deposit</h3>
                      </div>
-                     
+
                   </div>
-               </div>               
+               </div>
                <div class="fd-table-section">
                   <div class="row">
                      <div class="col-lg-3">
@@ -259,7 +259,7 @@
                                     <td>48-60</td>
                                     <td>7.50</td>
                                  </tr>
-                                 
+
 
                               </tbody>
                            </table>
@@ -276,7 +276,7 @@
                               <thead>
                                  <tr>
                                     <th>Months</th>
-                                    <th>Monthly ROI %</th>
+                                    <th>Quarterly ROI %</th>
                                  </tr>
                               </thead>
                               <tbody>
@@ -303,7 +303,7 @@
                      <div class="col-lg-3">
                         <div class="company-amt">
                            <span class="h-amt">
-                              Amount Rs. 10000  
+                              Amount Rs. 10000
                            </span>
                         </div>
                         <div class="fd-table table-responsive">
@@ -311,7 +311,7 @@
                               <thead>
                                  <tr>
                                     <th>Months</th>
-                                    <th>Monthly ROI %</th>
+                                    <th>Yearly ROI %</th>
                                  </tr>
                               </thead>
                               <tbody>
@@ -338,7 +338,7 @@
                      <div class="col-lg-3">
                         <div class="company-amt">
                            <span class="h-amt">
-                              Amount Rs. 10000  
+                              Amount Rs. 10000
                            </span>
                         </div>
                         <div class="fd-table table-responsive">
@@ -346,7 +346,7 @@
                               <thead>
                                  <tr>
                                     <th>Months</th>
-                                    <th>Monthly ROI %</th>
+                                    <th>CDY ROI %</th>
                                  </tr>
                               </thead>
                               <tbody>
@@ -375,16 +375,1346 @@
                <div class="note-section">
                   <h4>Note :</h4>
                   <p>
-                     0.25% Xtra for Senior Citizen,KYC reqruied of all investors 
+                     0.25% Xtra for Senior Citizen,KYC reqruied of all investors
                   </p>
                   <p>
-                     Chq in favour of " ICICI Home Fin- FD A/c " 
+                     Chq in favour of " ICICI Home Fin- FD A/c "
                   </p>
                </div>
-               
+               <div class="fd-chield">
+                  <div class="fd-header-section">
+                     <div class="fd-header">
+                        <div class="company-title">
+                           <h3>ICICI Home Finance Fixed Deposits (Special Scheme)</h3>
+                        </div>
+                        <!-- <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 15000
+                           </span>
+                        </div> -->
+                     </div>
+                  </div>
+                  <div class="fd-table-section">
+                     <div class="fd-table table-responsive">
+                        <table class="table">
+                           <thead>
+                              <tr>
+                                 <th>Months</th>
+                                 <th>Monthly ROI %</th>
+                                 <th>Quarterly ROI %</th>
+                                 <th>Half Yearly ROI %</th>
+                                 <th>Yearly ROI %</th>
+                                 <th>CDY ROI %</th>
+                              </tr>
+                           </thead>
+                           <tbody>
+                              <tr>
+                                 <td>39</td>
+                                 <td>7.55</td>
+                                 <td>7.60</td>
+                                 <td></td>
+                                 <td>7.80</td>
+                                 <td>8.51</td>
+                              </tr>
+                              <tr>
+                                 <td>45</td>
+                                 <td>7.55</td>
+                                 <td>7.60</td>
+                                 <td></td>
+                                 <td>7.80</td>
+                                 <td>8.68</td>
+                              </tr>
+
+
+                           </tbody>
+                        </table>
+                     </div>
+                  </div>
+                  <div class="note-section">
+                     <h4>Note :</h4>
+                     <p>
+                        0.25% Xtra for Senior Citizen,KYC Required of all Investors .
+                     </p>
+                     <p>
+                        Chq in favour of " ICICI Home Fin- FD A/c "
+                     </p>
+
+                  </div>
+               </div>
             </div>
             <div class="pd_bottom_30"></div>
             <!--second-->
+            <!--Mahindra third-->
+            <div class="fd-section">
+               <div class="fd-header-section">
+                  <div class="fd-header">
+
+                     <div class="company-title">
+                        <h3>Mahindra & Mahindra Financial Services Ltd</h3>
+                     </div>
+
+                  </div>
+               </div>
+               <div class="fd-table-section">
+                  <div class="row">
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 50000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Monthly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>12</td>
+                                    <td>7.10 </td>
+                                 </tr>
+                                 <tr>
+                                    <td>24</td>
+                                    <td>7.30 </td>
+                                 </tr>
+                                 <tr>
+                                    <td>36</td>
+                                    <td>7.55</td>
+                                 </tr>
+                                 <tr>
+                                    <td>48</td>
+                                    <td>7.50</td>
+                                 </tr>
+                                 <tr>
+                                    <td>60</td>
+                                    <td>7.55</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 50000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Quarterly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>12</td>
+                                    <td>7.20 </td>
+                                 </tr>
+                                 <tr>
+                                    <td>24</td>
+                                    <td>7.40</td>
+                                 </tr>
+                                 <tr>
+                                    <td>36</td>
+                                    <td>7.65</td>
+                                 </tr>
+                                 <tr>
+                                    <td>48</td>
+                                    <td>7.60</td>
+                                 </tr>
+                                 <tr>
+                                    <td>60</td>
+                                    <td>7.65</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 25000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Half Yearly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>12</td>
+                                    <td>7.25 </td>
+                                 </tr>
+                                 <tr>
+                                    <td>24</td>
+                                    <td>7.55</td>
+                                 </tr>
+                                 <tr>
+                                    <td>36</td>
+                                    <td>7.85</td>
+                                 </tr>
+                                 <tr>
+                                    <td>48</td>
+                                    <td>7.80</td>
+                                 </tr>
+                                 <tr>
+                                    <td>60</td>
+                                    <td>7.85</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 25000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Yearly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>12</td>
+                                    <td>7.50</td>
+                                 </tr>
+                                 <tr>
+                                    <td>24</td>
+                                    <td>7.80</td>
+                                 </tr>
+                                 <tr>
+                                    <td>36</td>
+                                    <td>8.10</td>
+                                 </tr>
+                                 <tr>
+                                    <td>48</td>
+                                    <td>8.05</td>
+                                 </tr>
+                                 <tr>
+                                    <td>60</td>
+                                    <td>8.10</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 5000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>CDY ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>12</td>
+                                    <td>7.50</td>
+                                 </tr>
+                                 <tr>
+                                    <td>24</td>
+                                    <td>7.80</td>
+                                 </tr>
+                                 <tr>
+                                    <td>36</td>
+                                    <td>8.10</td>
+                                 </tr>
+                                 <tr>
+                                    <td>48</td>
+                                    <td>8.05</td>
+                                 </tr>
+                                 <tr>
+                                    <td>60</td>
+                                    <td>8.10</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="note-section">
+                  <h4>Note :</h4>
+                  <p>
+                     Senior Citizen will get 0.25% Extra.
+                  </p>
+                  <p>
+                     Pan Card Xerox ,Photo and Address Proof Required of all Investors.
+                  </p>
+                  <p>
+                     Chq in favour of " MMFSL FIXED DEPOSIT"
+                  </p>
+               </div>
+
+            </div>
+            <div class="pd_bottom_30"></div>
+            <!--Mahindra third-->
+            <!--PNB Housing Finance Ltd. Fourth-->
+            <div class="fd-section">
+               <div class="fd-header-section">
+                  <div class="fd-header">
+
+                     <div class="company-title">
+                        <h3>PNB Housing Finance Ltd.</h3>
+                     </div>
+
+                  </div>
+               </div>
+               <div class="fd-table-section">
+                  <div class="row">
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 25000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Monthly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>12-23</td>
+                                    <td>7.21 </td>
+                                 </tr>
+                                 <tr>
+                                    <td>24-35</td>
+                                    <td>7.02 </td>
+                                 </tr>
+                                 <tr>
+                                    <td>36-47</td>
+                                    <td>7.49</td>
+                                 </tr>
+                                 <tr>
+                                    <td>48-59</td>
+                                    <td>7.16</td>
+                                 </tr>
+                                 <tr>
+                                    <td>60</td>
+                                    <td>7.35</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 10000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Quarterly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>12-23</td>
+                                    <td>7.25 </td>
+                                 </tr>
+                                 <tr>
+                                    <td>24-35</td>
+                                    <td>7.06</td>
+                                 </tr>
+                                 <tr>
+                                    <td>36-47</td>
+                                    <td>7.53</td>
+                                 </tr>
+                                 <tr>
+                                    <td>48-59</td>
+                                    <td>7.20</td>
+                                 </tr>
+                                 <tr>
+                                    <td>60</td>
+                                    <td>7.39</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 10000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Half Yearly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>12-23</td>
+                                    <td>7.32 </td>
+                                 </tr>
+                                 <tr>
+                                    <td>24-35</td>
+                                    <td>7.12</td>
+                                 </tr>
+                                 <tr>
+                                    <td>36-47</td>
+                                    <td>7.61</td>
+                                 </tr>
+                                 <tr>
+                                    <td>48-59</td>
+                                    <td>7.26</td>
+                                 </tr>
+                                 <tr>
+                                    <td>60</td>
+                                    <td>7.46</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 10000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Yearly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>12-23</td>
+                                    <td>7.45</td>
+                                 </tr>
+                                 <tr>
+                                    <td>24-35</td>
+                                    <td>7.25</td>
+                                 </tr>
+                                 <tr>
+                                    <td>36-47</td>
+                                    <td>7.75</td>
+                                 </tr>
+                                 <tr>
+                                    <td>48-59</td>
+                                    <td>7.40</td>
+                                 </tr>
+                                 <tr>
+                                    <td>60</td>
+                                    <td>7.60</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 10000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>CDY ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>12-23</td>
+                                    <td>7.45</td>
+                                 </tr>
+                                 <tr>
+                                    <td>24-35</td>
+                                    <td>7.51</td>
+                                 </tr>
+                                 <tr>
+                                    <td>36-47</td>
+                                    <td>8.37</td>
+                                 </tr>
+                                 <tr>
+                                    <td>48-59</td>
+                                    <td>8.26</td>
+                                 </tr>
+                                 <tr>
+                                    <td>60</td>
+                                    <td>8.85</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="note-section">
+                  <h4>Note :</h4>
+                  <p>
+                     Senior Citizen will get 0.25% Extra.
+                  </p>
+                  <p>
+                     Pan Card Xerox ,Photo and Address Proof Required of all Investors.
+                  </p>
+                  <p>
+                     Chq in favour of " MMFSL FIXED DEPOSIT"
+                  </p>
+               </div>
+
+            </div>
+            <div class="pd_bottom_30"></div>
+            <!--PNB Housing Finance Ltd. Fourth-->
+            <!--Shriram -UNNATI Fixed Deposit. sith-->
+            <div class="fd-section">
+               <div class="fd-header-section">
+                  <div class="fd-header">
+
+                     <div class="company-title">
+                        <h3>Shriram -UNNATI Fixed Deposit</h3>
+                     </div>
+
+                  </div>
+               </div>
+               <div class="fd-table-section">
+                  <div class="row">
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 10000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Monthly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>12</td>
+                                    <td> 7.59 </td>
+                                 </tr>
+                                 <tr>
+                                    <td>18</td>
+                                    <td> 7.73</td>
+                                 </tr>
+                                 <tr>
+                                    <td>24</td>
+                                    <td>7.87</td>
+                                 </tr>
+                                 <tr>
+                                    <td>30</td>
+                                    <td> 8.05</td>
+                                 </tr>
+                                 <tr>
+                                    <td>36</td>
+                                    <td>8.38</td>
+                                 </tr>
+                                 <tr>
+                                    <td>42</td>
+                                    <td>8.42</td>
+                                 </tr>
+                                 <tr>
+                                    <td>50</td>
+                                    <td>8.47</td>
+                                 </tr>
+                                 <tr>
+                                    <td>* 60</td>
+                                    <td>8.47</td>
+                                 </tr>
+
+
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 10000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Quarterly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>12</td>
+                                    <td>7.63 </td>
+                                 </tr>
+                                 <tr>
+                                    <td>18</td>
+                                    <td>7.77</td>
+                                 </tr>
+                                 <tr>
+                                    <td>24</td>
+                                    <td>7.92</td>
+                                 </tr>
+                                 <tr>
+                                    <td>30</td>
+                                    <td>8.10</td>
+                                 </tr>
+                                 <tr>
+                                    <td>36</td>
+                                    <td> 8.43</td>
+                                 </tr>
+                                 <tr>
+                                    <td>42</td>
+                                    <td>8.47</td>
+                                 </tr>
+                                 <tr>
+                                    <td>50</td>
+                                    <td> 8.52</td>
+                                 </tr>
+                                 <tr>
+                                    <td>* 60</td>
+                                    <td>8.52</td>
+                                 </tr>
+
+
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 10000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Half Yearly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>12</td>
+                                    <td>7.71</td>
+                                 </tr>
+                                 <tr>
+                                    <td>18</td>
+                                    <td>7.85</td>
+                                 </tr>
+                                 <tr>
+                                    <td>24</td>
+                                    <td>8</td>
+                                 </tr>
+                                 <tr>
+                                    <td>30</td>
+                                    <td> 8.18</td>
+                                 </tr>
+                                 <tr>
+                                    <td>36</td>
+                                    <td> 8.52</td>
+                                 </tr>
+                                 <tr>
+                                    <td>42</td>
+                                    <td> 8.56</td>
+                                 </tr>
+                                 <tr>
+                                    <td>50</td>
+                                    <td> 8.62</td>
+                                 </tr>
+                                 <tr>
+                                    <td>* 60</td>
+                                    <td> 8.62</td>
+                                 </tr>
+
+
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 10000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Yearly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>12</td>
+                                    <td>7.85</td>
+                                 </tr>
+                                 <tr>
+                                    <td>18</td>
+                                    <td> 8.00</td>
+                                 </tr>
+                                 <tr>
+                                    <td>24</td>
+                                    <td> 8.15</td>
+                                 </tr>
+                                 <tr>
+                                    <td>30</td>
+                                    <td>8.35</td>
+                                 </tr>
+                                 <tr>
+                                    <td>36</td>
+                                    <td>8.70</td>
+                                 </tr>
+                                 <tr>
+                                    <td>42</td>
+                                    <td>8.75</td>
+                                 </tr>
+                                 <tr>
+                                    <td>50</td>
+                                    <td> 8.80</td>
+                                 </tr>
+                                 <tr>
+                                    <td>* 60</td>
+                                    <td>8.80</td>
+                                 </tr>
+
+
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 5000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>CDY ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>12</td>
+                                    <td>7.85 </td>
+                                 </tr>
+                                 <tr>
+                                    <td>18</td>
+                                    <td> 8.16</td>
+                                 </tr>
+                                 <tr>
+                                    <td>24</td>
+                                    <td> 8.49</td>
+                                 </tr>
+                                 <tr>
+                                    <td>30</td>
+                                    <td>8.88</td>
+                                 </tr>
+                                 <tr>
+                                    <td>36</td>
+                                    <td>9.49</td>
+                                 </tr>
+                                 <tr>
+                                    <td>42</td>
+                                    <td> 9.75</td>
+                                 </tr>
+                                 <tr>
+                                    <td>50</td>
+                                    <td> 10.10</td>
+                                 </tr>
+                                 <tr>
+                                    <td>* 60</td>
+                                    <td>10.50</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="note-section">
+                  <h4>Note :</h4>
+                  <p>
+                     Photo,Pan Card Xerox and Address Proof Required of all Investor.
+                  </p>
+                  <p>
+                     Additional benefit for Sr.Citizen 0.50%.
+                  </p>
+                  <p>
+                     Additional benefit for Women 0.10%
+                  </p>
+                  <p>
+                     Chq in favour of " SHRIRAM FINANCE LIMITED "
+                  </p>
+                  <p>
+                     <strong class="text-danger">* Special deposit- Jubilee Deposit</strong>
+                     <br>
+                     <span class="text-danger">
+                        Minimum mobilization has to be 20 Lacs for the company
+                     </span>
+                     <br>
+                     <span class="text-danger">
+                        Broker code to be used - DURBR00016
+                     </span>
+                  </p>
+               </div>
+
+            </div>
+            <div class="pd_bottom_30"></div>
+            <!--Shriram -UNNATI Fixed Deposit. sith-->
+            <!-- seven LIC HOUSING FINANCE LIMITED-->
+            <div class="fd-section">
+               <div class="fd-header-section">
+                  <div class="fd-header">
+
+                     <div class="company-title">
+                        <h3>LIC Housing Finance Limited</h3>
+                     </div>
+                     <div class="company-amt">
+                        <span class="h-amt">
+                           Amount Rs. 200000
+                        </span>
+                     </div>
+                  </div>
+               </div>
+               <div class="fd-table-section">
+                  <div class="fd-table table-responsive">
+                     <table class="table">
+                        <thead>
+                           <tr>
+                              <th>Months</th>
+                              <th>Monthly ROI</th>
+                              <th>Quarterly ROI</th>
+                              <th>Half Yearly ROI</th>
+                              <th>Yearly ROI</th>
+                              <th>CDY ROI</th>
+                           </tr>
+                        </thead>
+                        <tbody>
+                           <tr>
+                              <td>12</td>
+                              <td>7.00</td>
+                              <td> 7.05</td>
+                              <td></td>
+                              <td>7.25</td>
+                              <td> 7.25</td>
+                           </tr>
+                           <tr>
+                              <td>15</td>
+                              <td>7.10</td>
+                              <td>7.15</td>
+                              <td></td>
+                              <td> 7.35</td>
+                              <td>7.35</td>
+                           </tr>
+                           <tr>
+                              <td>18</td>
+                              <td>7.10</td>
+                              <td>7.15</td>
+                              <td></td>
+                              <td>7.35</td>
+                              <td>7.35</td>
+                           </tr>
+                           <tr>
+                              <td>24</td>
+                              <td> 7.35</td>
+                              <td> 7.40</td>
+                              <td></td>
+                              <td>7.60</td>
+                              <td>7.60</td>
+                           </tr>
+                           <tr>
+                              <td>36</td>
+                              <td> 7.50</td>
+                              <td> 7.55</td>
+                              <td></td>
+                              <td>7.75</td>
+                              <td>7.75</td>
+                           </tr>
+                           <tr>
+                              <td>60</td>
+                              <td> 7.50</td>
+                              <td> 7.55</td>
+                              <td></td>
+                              <td>7.75</td>
+                              <td>7.75</td>
+                           </tr>
+
+                        </tbody>
+                     </table>
+                  </div>
+               </div>
+               <div class="note-section">
+                  <h4>Note :</h4>
+                  <p>
+                     Senior Citizen will get 0.25% .
+                  </p>
+                  <p>
+                     Chq in Favour of “LIC Housing Finance Limited-Collection A/C."
+                  </p>
+                  <p>
+                     Additional Deposit in multiples of Rs. 10000/- ( Monthly/Quarterly).
+                  </p>
+                  <p>
+                     Additional Deposit in multiples of Rs. 1000/- ( Yearly).
+                  </p>
+               </div>
+
+            </div>
+            <div class="pd_bottom_30"></div>
+            <!-- seven LIC HOUSING FINANCE LIMITED-->
+            <!-- Eight Rural Electrification Corporation limited-->
+            <div class="fd-section">
+               <div class="fd-header-section">
+                  <div class="fd-header">
+
+                     <div class="company-title">
+                        <h3>Rural Electrification Corporation limited</h3>
+                     </div>
+
+                  </div>
+               </div>
+               <div class="fd-table-section">
+                  <div class="row">
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. NA
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Monthly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>60</td>
+                                    <td>NA</td>
+                                 </tr>
+
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. NA
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Quarterly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>60</td>
+                                    <td>NA</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. NA
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Half Yearly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>60</td>
+                                    <td>NA</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. 10000
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>Yearly ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>60</td>
+                                    <td>5.25</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                     <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                        <div class="company-amt">
+                           <span class="h-amt">
+                              Amount Rs. NA
+                           </span>
+                        </div>
+                        <div class="fd-table table-responsive">
+                           <table class="table">
+                              <thead>
+                                 <tr>
+                                    <th>Months</th>
+                                    <th>CDY ROI %</th>
+                                 </tr>
+                              </thead>
+                              <tbody>
+                                 <tr>
+                                    <td>60</td>
+                                    <td>NA</td>
+                                 </tr>
+                              </tbody>
+                           </table>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="note-section">
+                  <h4>Note :</h4>
+                  <p>
+                     Pan Card and Address proof (AADHAR ) xerox reqd of all Investors.
+                  </p>
+               </div>
+               <div class="fd-chield">
+                  <div class="fd-header-section">
+                     <div class="fd-header">
+                        <div class="company-title">
+                           <h3>Indian Railway Finance Corporation Ltd.</h3>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="fd-table-section">
+                     <div class="row">
+                        <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                           <div class="company-amt">
+                              <span class="h-amt">
+                                 Amount Rs. NA
+                              </span>
+                           </div>
+                           <div class="fd-table table-responsive">
+                              <table class="table">
+                                 <thead>
+                                    <tr>
+                                       <th>Months</th>
+                                       <th>Monthly ROI %</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>60</td>
+                                       <td>NA</td>
+                                    </tr>
+
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                           <div class="company-amt">
+                              <span class="h-amt">
+                                 Amount Rs. NA
+                              </span>
+                           </div>
+                           <div class="fd-table table-responsive">
+                              <table class="table">
+                                 <thead>
+                                    <tr>
+                                       <th>Months</th>
+                                       <th>Quarterly ROI %</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>60</td>
+                                       <td>NA</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                           <div class="company-amt">
+                              <span class="h-amt">
+                                 Amount Rs. NA
+                              </span>
+                           </div>
+                           <div class="fd-table table-responsive">
+                              <table class="table">
+                                 <thead>
+                                    <tr>
+                                       <th>Months</th>
+                                       <th>Half Yearly ROI %</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>60</td>
+                                       <td>NA</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                           <div class="company-amt">
+                              <span class="h-amt">
+                                 Amount Rs. 10000
+                              </span>
+                           </div>
+                           <div class="fd-table table-responsive">
+                              <table class="table">
+                                 <thead>
+                                    <tr>
+                                       <th>Months</th>
+                                       <th>Yearly ROI %</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>60</td>
+                                       <td>5.25</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                           <div class="company-amt">
+                              <span class="h-amt">
+                                 Amount Rs. NA
+                              </span>
+                           </div>
+                           <div class="fd-table table-responsive">
+                              <table class="table">
+                                 <thead>
+                                    <tr>
+                                       <th>Months</th>
+                                       <th>CDY ROI %</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>60</td>
+                                       <td>NA</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="note-section">
+                     <h4>Note :</h4>
+                     <p>
+                        Pan Card and Address proof (AADHAR ) xerox reqd of all Investors.
+                     </p>
+                  </div>
+               </div>
+               <div class="fd-chield">
+                  <div class="fd-header-section">
+                     <div class="fd-header">
+                        <div class="company-title">
+                           <h3>PFC Capital Gain Bonds.</h3>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="fd-table-section">
+                     <div class="row">
+                        <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                           <div class="company-amt">
+                              <span class="h-amt">
+                                 Amount Rs. NA
+                              </span>
+                           </div>
+                           <div class="fd-table table-responsive">
+                              <table class="table">
+                                 <thead>
+                                    <tr>
+                                       <th>Months</th>
+                                       <th>Monthly ROI %</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>60</td>
+                                       <td>NA</td>
+                                    </tr>
+
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                           <div class="company-amt">
+                              <span class="h-amt">
+                                 Amount Rs. NA
+                              </span>
+                           </div>
+                           <div class="fd-table table-responsive">
+                              <table class="table">
+                                 <thead>
+                                    <tr>
+                                       <th>Months</th>
+                                       <th>Quarterly ROI %</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>60</td>
+                                       <td>NA</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                           <div class="company-amt">
+                              <span class="h-amt">
+                                 Amount Rs. NA
+                              </span>
+                           </div>
+                           <div class="fd-table table-responsive">
+                              <table class="table">
+                                 <thead>
+                                    <tr>
+                                       <th>Months</th>
+                                       <th>Half Yearly ROI %</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>60</td>
+                                       <td>NA</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                           <div class="company-amt">
+                              <span class="h-amt">
+                                 Amount Rs. 10000
+                              </span>
+                           </div>
+                           <div class="fd-table table-responsive">
+                              <table class="table">
+                                 <thead>
+                                    <tr>
+                                       <th>Months</th>
+                                       <th>Yearly ROI %</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>60</td>
+                                       <td>5.25</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                        <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                           <div class="company-amt">
+                              <span class="h-amt">
+                                 Amount Rs. NA
+                              </span>
+                           </div>
+                           <div class="fd-table table-responsive">
+                              <table class="table">
+                                 <thead>
+                                    <tr>
+                                       <th>Months</th>
+                                       <th>CDY ROI %</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       <td>60</td>
+                                       <td>NA</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="note-section">
+                     <h4>Note :</h4>
+                     <p>
+                        Pan Card and Address proof (AADHAR ) xerox reqd of all Investors.
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="pd_bottom_30"></div>
+            <!-- Eight Rural Electrification Corporation limited-->
          </div>
 
       </div>
