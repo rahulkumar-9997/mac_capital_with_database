@@ -1304,8 +1304,9 @@
 }
 /*--==================import styles===================--*/
 :root {
-  --creote-family-one: "Spartan", sans-serif!important;
-  --creote-family-two: "Inter", sans-serif!important;
+  /* --creote-family-one: "Spartan", sans-serif!important; */
+  --creote-family-one: "Lato", sans-serif!important;
+  --creote-family-two: "Lato", sans-serif!important;
   --primary-color-one: #078586;
   --primary-color-two: #282f3b;
   --primary-color-three: #f0f3f9;
@@ -1630,7 +1631,7 @@ h6 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 26px;
   font-family: var(--creote-family-two);
   font-weight: 400;
@@ -3528,13 +3529,14 @@ body .enabled_custom_title .title_page .main_tit {
   font-size: 18px;
   line-height: 65px;
   padding: 0;
-  font-weight: 600;
+  font-weight: 700;
   color: var(--menu-color);
   font-family: var(--creote-family-one);
   transition: 0.5s ease-in-out;
   -ms-transition: 0.5s ease-in-out;
   -moz-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
+  text-transform: uppercase;
 }
 .header .header_content_collapse .navigation_menu .navbar_nav li a.nav-link:hover,
 .default_sickty_heaad .header_content_collapse .navigation_menu .navbar_nav li a.nav-link:hover {
@@ -10580,7 +10582,7 @@ header .flaticon-list {
   margin-bottom: 5px;
 }
 .team_intro_box .team_intro_inner .team_intro_start .title h1 {
-    font-size: 25px;
+    font-size: 27px;
     font-weight: 700;
     color: #fff;
     line-height: 30px;
@@ -10601,7 +10603,7 @@ header .flaticon-list {
   color: #fff;
 }
 .team_intro_box .team_intro_inner .team_intro_start .quotes h5 {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 700;
   color: #fff;
   line-height: 27px;
@@ -10885,7 +10887,7 @@ header .flaticon-list {
   -o-transition: all 500ms ease;
 }
 .service_box.style_one .service_content .content_inner span.read_more {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 26px;
   font-weight: 600;
   font-family: var(--creote-family-one);
@@ -10917,7 +10919,7 @@ header .flaticon-list {
   content: "\f105";
   font-family: "FontAwesome";
   right: -16px;
-  top: -4px;
+  top: 0px;
   font-size: 17px;
   color: var(--heading-dark);
   height: 15px;
@@ -11164,7 +11166,7 @@ header .flaticon-list {
 }
 .service_box.style_three .service_content {
   position: relative;
-  padding: 25px;
+  padding: 15px;
   background: #fff;
   border-radius: 0px 0px 30px 0px;
   box-shadow: var(--box-shadow);
@@ -11216,8 +11218,8 @@ header .flaticon-list {
   -ms-transition: 0.5s ease-in-out;
 }
 .service_box.style_three .service_content .content_inner h2 a {
-  font-size: 22px;
-  line-height: 32px;
+  font-size: 20px;
+  line-height: 28px;
   font-weight: 700;
   display: block;
   color: var(--heading-dark);
@@ -14733,7 +14735,7 @@ header .flaticon-list {
 .creote_widget_service_list ul.service_list_box li a {
   width: 100%;
   display: block;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   color: var(--text-color-dark);
   line-height: 28px;
@@ -18371,7 +18373,7 @@ header .flaticon-list {
   font-weight: 700;
 }
 .icon_box_all.style_five .icon_content h2 {
-  font-size: 16px;
+  font-size: 18px;
     line-height: 18px;
   font-weight: 700;
   color: var(--heading-dark);
@@ -30476,7 +30478,7 @@ body.side_menu_toggled .style-switcher {
       line-height: 30px !important;
   }
   p {
-      font-size: 16px !important;
+      font-size: 18px !important;
       line-height: 26px !important;
   }
   /*rahul add css media query */

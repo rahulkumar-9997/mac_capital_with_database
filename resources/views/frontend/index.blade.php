@@ -17,7 +17,7 @@
                            <div class="row">
                               <div class="col-lg-12 col-md-12 d-flex align-items-center card-home">
                                  <div class="row">
-                                    <div class="col-lg-3 col-md-3 col-12">
+                                    <div class="col-lg-3 col-md-3 col-12 mb-4">
                                           <div class="service_box style_one dark_color animate-box wow fadeInUp">
                                              <a href="{{route('mutual-funds')}}" >
                                                 <div class="service_content">
@@ -28,14 +28,14 @@
                                                          <h2>
                                                             <span style="color:#4282aa;"> Mutual Funds </span>
                                                          </h2>
-                                                         <p style="color:#4a4e56;">Mutual funds help you grow your money by investing in a mix of stocks and bonds, managed by experts, making it easy and low-risk. </p>
+                                                         <p style="color:#4a4e56;">Mutual funds help you grow your money by investing in a mix of stocks and bonds, managed by experts, making it easy. </p>
                                                          <span class="read_more"> Read more </span>
                                                    </div>
                                                 </div>
                                              </a>
                                           </div>
                                     </div>
-                                    <div class="col-lg-3 col-md-3 col-12">
+                                    <div class="col-lg-3 col-md-3 col-12 mb-4">
                                           <div class="service_box style_one dark_color animate-box wow fadeInUp">
                                              <a href="{{route('sme-ipos')}}" >
                                                 <div class="service_content ">
@@ -53,7 +53,7 @@
                                              </a>
                                           </div>
                                     </div>
-                                    <div class="col-lg-3 col-md-3 col-12">
+                                    <div class="col-lg-3 col-md-3 col-12 mb-4">
                                           <div class="service_box style_one dark_color animate-box wow fadeInUp">
                                              <a href="{{ route('other-services.insurance-solution') }}" >
                                                 <div class="service_content">
@@ -72,7 +72,7 @@
                                              </a>
                                           </div>
                                     </div>
-                                    <div class="col-lg-3 col-md-3 col-12">
+                                    <div class="col-lg-3 col-md-3 col-12 mb-4">
                                           <div class="service_box style_one dark_color animate-box wow fadeInUp">
                                              <a href="{{route('fixed-deposit')}}" >
                                                 <div class="service_content">

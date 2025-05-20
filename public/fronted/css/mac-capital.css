@@ -170,7 +170,7 @@
 }
 /*code for graph*/
 .banner-section-icon .service_box.style_one .service_content{
-    padding: 20px;
+    padding: 20px 10px;
 }
 
 .banner-section-icon .service_box {
@@ -186,6 +186,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: all 0.4s ease;
+    height: 100%;
 }
 
 .banner-section-icon .service_box:hover {
@@ -734,7 +735,7 @@ a.call-now-text:focus{
         top: 3px;
     }
     .pd_zero .icon_box_all.style_five .icon_content h2 {
-        font-size: 12px;
+        font-size: 16px;
     }
     .icon_box_all.style_five .icon_content .icon {
         margin-bottom: 10px;
@@ -751,7 +752,7 @@ a.call-now-text:focus{
         line-height: 30px;
     }
     .team_intro_box .team_intro_inner .team_intro_start .quotes h5 {
-        font-size: 15px;
+        font-size: 17px;
         line-height: 25px;
     }
     .banner-section-icon .card-home p{
