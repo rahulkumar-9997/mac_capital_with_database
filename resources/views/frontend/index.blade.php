@@ -18,7 +18,7 @@
                               <div class="col-lg-12 col-md-12 d-flex align-items-center card-home">
                                  <div class="row">
                                     <div class="col-lg-3 col-md-3 col-12">
-                                          <div class="service_box style_one dark_color animate-box">
+                                          <div class="service_box style_one dark_color animate-box wow fadeInUp">
                                              <a href="{{route('mutual-funds')}}" >
                                                 <div class="service_content">
                                                    <div class="image">
@@ -36,9 +36,9 @@
                                           </div>
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-12">
-                                          <div class="service_box style_one dark_color animate-box">
+                                          <div class="service_box style_one dark_color animate-box wow fadeInUp">
                                              <a href="{{route('sme-ipos')}}" >
-                                                <div class="service_content">
+                                                <div class="service_content ">
                                                    <div class="image">
                                                          <img src="{{asset('fronted/mac-image/banner-icon/invesment.png')}}" class="img-fluid" alt="Financial Services">
                                                    </div>
@@ -54,7 +54,7 @@
                                           </div>
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-12">
-                                          <div class="service_box style_one dark_color animate-box">
+                                          <div class="service_box style_one dark_color animate-box wow fadeInUp">
                                              <a href="{{ route('other-services.insurance-solution') }}" >
                                                 <div class="service_content">
                                                    <div class="image">
@@ -73,7 +73,7 @@
                                           </div>
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-12">
-                                          <div class="service_box style_one dark_color animate-box">
+                                          <div class="service_box style_one dark_color animate-box wow fadeInUp">
                                              <a href="{{route('fixed-deposit')}}" >
                                                 <div class="service_content">
                                                    <div class="image">
@@ -97,12 +97,12 @@
                            <div class="row justify-content-md-center">
                               <div class="col-lg-10">
                                  <div class="left_content">
-                                    <div class="title">
+                                    <div class="title wow fadeInRight">
                                        <h1>Transform Your Wealth, Secure Your Future.</h1>
                                     </div>
                                     <div class="quotes">
                                        <!-- <span class="icon-quote"></span> -->
-                                       <h5>
+                                       <h5 class="wow fadeInLeft">
                                           Discover the power of smart investing with our comprehensive financial services. We provide customized investment strategies and tax-saving solutions tailored to your needs, helping you achieve your financial goals with confidence. Build wealth, secure your future, and take control of your financial freedom today.
                                        </h5>
                                     </div>
@@ -204,7 +204,7 @@
             <div class="pd_bottom_10"></div>
             <!--===============spacing==============-->
             <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0 col-6 pe-xl-0 ps-xl-2">
-               <div class="icon_box_all style_five">
+               <div class="icon_box_all style_five wow fadeInLeft">
                   <div class="icon_content">
                      <div class="icon">
                         <img src="{{asset('fronted/mac-image/sip-icon/new/SIP.png')}}" class="img-fluid" alt="Financial Services">
@@ -229,7 +229,7 @@
                <!--===============spacing==============-->
             </div>
             <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0 col-6 pe-xl-0 ps-xl-2">
-               <div class="icon_box_all style_five">
+               <div class="icon_box_all style_five wow fadeInLeft">
                   <div class="icon_content">
                      <div class="icon">
                         <img src="{{asset('fronted/mac-image/sip-icon/new/term-insurance.png')}}" class="img-fluid" alt="Term Insurance">
@@ -254,7 +254,7 @@
                <!--===============spacing==============-->
             </div>
             <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0 col-6 pe-xl-0 ps-xl-2">
-               <div class="icon_box_all style_five">
+               <div class="icon_box_all style_five wow fadeInLeft">
                   <div class="icon_content">
                      <div class="icon">
                         <img src="{{asset('fronted/mac-image/sip-icon/new/home-loan.png')}}" class="img-fluid" alt="Home Loan">
@@ -278,7 +278,7 @@
                <!--===============spacing==============-->
             </div>
             <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0 col-6 pe-xl-0 ps-xl-2">
-               <div class="icon_box_all style_five">
+               <div class="icon_box_all style_five wow fadeInLeft">
                   <div class="icon_content">
                      <div class="icon">
                         <img src="{{asset('fronted/mac-image/sip-icon/new/Wealth-Insurance.png')}}" class="img-fluid" alt="Health Insurance">
@@ -302,7 +302,7 @@
                <!--===============spacing==============-->
             </div>
             <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0 col-6 pe-xl-0 ps-xl-2">
-               <div class="icon_box_all style_five">
+               <div class="icon_box_all style_five wow fadeInLeft">
                   <div class="icon_content">
                      <div class="icon">
                         <img src="{{asset('fronted/mac-image/sip-icon/new/US-Equity.png')}}" class="img-fluid" alt="U.S Equity">
@@ -326,7 +326,7 @@
                <!--===============spacing==============-->
             </div>
             <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0 col-6 pe-xl-0 ps-xl-2">
-               <div class="icon_box_all style_five">
+               <div class="icon_box_all style_five wow fadeInRight">
                   <div class="icon_content">
                      <div class="icon">
                         <img src="{{asset('fronted/mac-image/sip-icon/new/Car-&-Bike-Insurance.png')}}" class="img-fluid" alt="Car & Bike Insurance">
@@ -350,7 +350,7 @@
                <!--===============spacing==============-->
             </div>
             <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0 col-6 pe-xl-0 ps-xl-2">
-               <div class="icon_box_all style_five">
+               <div class="icon_box_all style_five wow fadeInRight">
                   <div class="icon_content">
                      <div class="icon">
                         <img src="{{asset('fronted/mac-image/sip-icon/new/business-insurance.png')}}" class="img-fluid" alt="Business Insurance">
@@ -374,7 +374,7 @@
                <!--===============spacing==============-->
             </div>
             <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0 col-6 pe-xl-0 ps-xl-2">
-               <div class="icon_box_all style_five">
+               <div class="icon_box_all style_five wow fadeInRight">
                   <div class="icon_content">
                      <div class="icon">
                         <img src="{{asset('fronted/mac-image/sip-icon/new/ekyc.png')}}" class="img-fluid" alt="EKYC">
@@ -398,7 +398,7 @@
                <!--===============spacing==============-->
             </div>
             <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0 col-6 pe-xl-0 ps-xl-2">
-               <div class="icon_box_all style_five">
+               <div class="icon_box_all style_five wow fadeInRight">
                   <div class="icon_content">
                      <div class="icon">
                         <img src="{{asset('fronted/mac-image/sip-icon/new/business-loan.png')}}" class="img-fluid" alt="Business loan">
@@ -422,7 +422,7 @@
                <!--===============spacing==============-->
             </div>
             <div class="col-xl-20 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0 col-6 pe-xl-0 ps-xl-2">
-               <div class="icon_box_all style_five">
+               <div class="icon_box_all style_five wow fadeInRight">
                   <div class="icon_content">
                      <div class="icon">
                         <img src="{{asset('fronted/mac-image/sip-icon/new/bond-and-fixed-deposite.png')}}" class="img-fluid" alt="Bond & Fixed Deposits">
@@ -469,7 +469,7 @@
          </div>
          <div class="row">
             <div class="col-xl-6 col-lg-12">
-               <div class="title_all_box style_one dark_color">
+               <div class="title_all_box style_one dark_color wow fadeInLeft">
                   <div class="title_sections left">
                      <!-- <div class="before_title"> Strategic </div> -->
                      <h4> Welcome to MAC Capital</h4>
@@ -480,7 +480,7 @@
                <!--===============spacing==============-->
                <div class="pd_bottom_20"></div>
                <!--===============spacing==============-->
-               <div class="process_box style_one dark_color">
+               <div class="process_box style_one dark_color wow fadeInLeft">
                   <div class="process_box_outer">
                      <div class="icon">
                         <span class=" icon-users"></span>
@@ -495,7 +495,7 @@
                      </div>
                   </div>
                </div>
-               <div class="process_box style_one dark_color">
+               <div class="process_box style_one dark_color wow fadeInLeft">
                   <div class="process_box_outer">
                      <div class="icon">
                         <span class="icon-user-check"></span>
@@ -510,7 +510,7 @@
                      </div>
                   </div>
                </div>
-               <div class="process_box style_one dark_color">
+               <div class="process_box style_one dark_color wow fadeInLeft">
                   <div class="process_box_outer">
                      <div class="icon">
                         <span class=" icon-line-chart"></span>
@@ -542,13 +542,13 @@
 
             </div>
             <div class="col-xl-6 col-lg-12">
-               <div class="service_wrapper">
+               <div class="service_wrapper ">
                   <div class="move_image_absolute">
                      <img src="{{asset('fronted/mac-image/home/home-image_circle.png')}}" class="class-fluid" alt="image" />
                   </div>
                   <div class="row">
                      <div class="col-lg-6 col-md-6">
-                        <div class="service_box style_one dark_color">
+                        <div class="service_box style_one dark_color wow fadeInRight">
                            <div class="service_content">
                               <div class="image ">
                                  <img src="{{asset('fronted/mac-image/home/equity-fund-home.png')}}" class="img-fluid"
@@ -573,7 +573,7 @@
                         <div class="pd_top_100 mobile_pd_top_30"></div>
                         <div class="pd_top_100 d_md_none"></div>
                         <!--===============spacing==============-->
-                        <div class="service_box style_one dark_color last">
+                        <div class="service_box style_one dark_color last wow fadeInRight">
                            <div class="service_content">
                               <div class="image ">
                                  <img src="{{asset('fronted/mac-image/home/liquid-funds-home.png')}}" class="img-fluid"
@@ -601,13 +601,13 @@
    </section>
    <!---about us end-->
    <!---service--->
-   <section class="service_section bg_light_1" id="service">
+   <section class="service_section bg_light_1 wow fadeInUp" id="service">
       <!--===============spacing==============-->
       <div class="pd_top_80"></div>
       <!--===============spacing==============-->
       <div class="container">
          <div class="row">
-            <div class="title_all_box style_one text-center dark_color">
+            <div class="title_all_box style_one text-center dark_color wow fadeInLeft">
                <div class="title_sections">
                   <!-- <div class="before_title">Empowerment</div> -->
                   <h2>Financial Solutions</h2>
@@ -819,14 +819,14 @@
       </div>
    </section> -->
    <!---expertise-end--->
-   <section class="service-section bg_light_11 calculator-home">
+   <section class="service-section bg_light_11 calculator-home wow fadeInUp">
       <!--===============spacing==============-->
       <div class="pd_top_80"></div>
       <!--===============spacing==============-->
       <div class="container chart-container">
          <div class="row">
             <div class="col-lg-12">
-               <div class="title_all_box style_one text-center dark_color">
+               <div class="title_all_box style_one text-center dark_color wow fadeInTop">
                   <div class="title_sections">
                      <!-- <div class="before_title">Leading</div> -->
                      <h2 class="mb-10">How much extra can you save with Mutual Fund?</h2>
@@ -843,7 +843,7 @@
             <!--start code-->
             <div class="row">
                <div class="col-lg-3">
-                  <ul>
+                  <ul class="wow fadeInLeft">
                      <li>
                         <span>Lumpsum</span>
                         <div class="inputFldBox input-chart">
@@ -887,7 +887,7 @@
                   </div>
                </div>
                <div class="col-lg-3 col-md-3 d-flex1 align-items-center">
-                  <div class="investment-summary">
+                  <div class="investment-summary wow fadeInRight">
                      <div class="investment-item">
                         <strong>Mutual Fund</strong><span style="color: #3182bd" id="mfValue">0</span>
                      </div>
@@ -914,14 +914,14 @@
       <!--===============spacing==============-->
    </section>
    <!---process--->
-   <section class="service-section-two">
+   <section class="service-section-two wow fadeInUp">
       <!--===============spacing==============-->
       <div class="pd_top_80"></div>
       <!--===============spacing==============-->
       <div class="container pd_zero">
          <div class="row">
             <div class="col-lg-12">
-               <div class="title_all_box style_one text-center  dark_color">
+               <div class="title_all_box style_one text-center  dark_color wow fadeInLeft">
                   <div class="title_sections">
                      <!-- <div class="before_title"> Making What’s </div> -->
                      <h2>Corporate Advisory</h2>

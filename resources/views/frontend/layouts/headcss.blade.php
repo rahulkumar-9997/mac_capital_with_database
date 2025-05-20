@@ -36,6 +36,7 @@
 <link rel='stylesheet' href="{{asset('fronted/css/woocommerce-layout.css')}}" type='text/css' media='all' />
 <link rel='stylesheet' href="{{asset('fronted/css/woocommerce.css')}}" type='text/css' media='all' />
 <link rel='stylesheet' href="{{asset('fronted/css/mac-capital.css')}}" type='text/css' media='all' />
+<link rel='stylesheet' href="{{asset('fronted/css/animate.min.css')}}" type='text/css' media='all' />
 <!----woocommerce---->
 
 @stack('css')

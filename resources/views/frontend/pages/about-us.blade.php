@@ -185,10 +185,10 @@
                      <div class="management-team-card border_line_pink">
                         <img src="{{asset('fronted/mac-image/our-board/Late-Ashok-Agarwal.jpg')}}" alt="Late Shri Ashok Agarwal" class="img-fluid team-img">
                         <p class="team-name"><b>Late Shri Ashok Agarwal </b></p>
-                        <p class="team-designation">Founder & Visionary Leader</p>
+                        <p class="team-designation">Founder, Chairman and Visionary Leader</p>
                         <div class="team-large-desc" style="display: none">
                            <h4 class="team-name">Shri Late  Ashok Agarwal</h4>
-                           <p class="team-modal-designation">Founder & Visionary Leader</p>
+                           <p class="team-modal-designation">Founder, Chairman and Visionary Leader</p>
                            <div class="message-body">
                               <p class="text-magenta">
                                  With over five decades of expertise in Corporate Finance and Investment Management, Late Shri Ashok Agarwal was the guiding force behind MAC Capital Services Pvt. Ltd. His visionary leadership, unwavering integrity, and commitment to excellence laid the foundation for the firm's success.
@@ -213,14 +213,14 @@
                   <a href="javaScript:void(0)" class="team-ct">
                      <div class="management-team-card border_line_pink">
                         <img src="{{asset('fronted/mac-image/our-board/Shri-Anupam-Agarwal.jpg')}}" alt="Shri Anupam  Agarwal" class="img-fluid team-img">
-                        <p class="team-name"><b>Mr. Anupam  Agarwal</b></p>
+                        <p class="team-name"><b>Anupam  Agarwal</b></p>
                         <p class="team-designation">
-                           Founder & Managing Director, MAC Capital Services Pvt. Ltd.
+                           Founder & Managing Director
                         </p>
                         <div class="team-large-desc" style="display: none">
-                           <h4 class="team-name">Mr. Anupam  Agarwal</h4>
+                           <h4 class="team-name">Anupam  Agarwal</h4>
                            <p class="team-modal-designation">
-                              Founder & Managing Director, MAC Capital Services Pvt. Ltd.
+                              Founder & Managing Director 
                            </p>
                            <div class="message-body">
                               <p class="text-magenta">
@@ -253,11 +253,11 @@
                   <a href="javaScript:void(0)" class="team-ct">
                      <div class="management-team-card border_line_pink">
                         <img src="{{asset('fronted/mac-image/our-board/Shri-Achintya-Agarwal.jpg')}}" alt="Shri Achintya Agarwal" class="img-fluid team-img">
-                        <p class="team-name"><b>Mr. Achintya  Agarwal </b></p>
+                        <p class="team-name"><b>Achintya  Agarwal </b></p>
                         <p class="team-designation">Director & CEO </p>
                         
                         <div class="team-large-desc" style="display: none">
-                           <h4 class="team-name">Mr. Achintya  Agarwal</h4>
+                           <h4 class="team-name">Achintya  Agarwal</h4>
                            <p class="team-modal-designation">Director & CEO </p>
                            <div class="message-body">
                               <p class="text-magenta">
@@ -285,10 +285,10 @@
                   <a href="javaScript:void(0)" class="team-ct">
                      <div class="management-team-card border_line_pink">
                         <img src="{{asset('fronted/mac-image/our-board/gauri-agarwal.jpg')}}" alt="Shri Gauri Agarwal" class="img-fluid team-img">
-                        <p class="team-name"><b>Mrs. Gauri Agarwal</b></p>
+                        <p class="team-name"><b>Gauri Agarwal</b></p>
                         <p class="team-designation">Director & Head of Marketing & Outreach, PR</p>
                         <div class="team-large-desc" style="display: none">
-                           <h4 class="team-name">Mrs. Gauri Agarwal</h4>
+                           <h4 class="team-name">Gauri Agarwal</h4>
                            <p class="team-modal-designation">Director & Head of Marketing & Outreach, PR</p>
                            <div class="message-body">
                               <p class="text-magenta">

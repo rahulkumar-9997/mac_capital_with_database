@@ -3525,7 +3525,7 @@ body .enabled_custom_title .title_page .main_tit {
 }
 .header .header_content_collapse .navigation_menu .navbar_nav li a.nav-link,
 .default_sickty_heaad .header_content_collapse .navigation_menu .navbar_nav li a.nav-link {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 65px;
   padding: 0;
   font-weight: 600;
@@ -3597,7 +3597,7 @@ body .enabled_custom_title .title_page .main_tit {
 .header .header_content_collapse .navigation_menu .navbar_nav li .dropdown-menu li a.nav-link,
 .default_sickty_heaad .header_content_collapse .navigation_menu .navbar_nav li .dropdown-menu li a.nav-link {
   color: var(--text-color-dark) !important;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 25px;
   font-weight: 400;
   font-family: var(--creote-family-two);
