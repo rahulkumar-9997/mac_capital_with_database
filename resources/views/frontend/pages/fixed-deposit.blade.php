@@ -46,7 +46,7 @@
          <div class="col-lg-12">
             <div class="head-datep">
                <span class="h-date">
-                  As on 9th April 2025
+                  As on 5th May 2025
                </span>
             </div>
          </div>
@@ -56,7 +56,7 @@
                   <div class="fd-header">
 
                      <div class="company-title">
-                        <h3>Bajaj Finance Limited</h3>
+                        <h3>Bajaj Finance Limited (10/04/2025)</h3>
                      </div>
                      <div class="company-amt">
                         <span class="h-amt">
@@ -132,12 +132,15 @@
                   <p>
                      Pan Card Xerox, Photo & Address Proof Required of all Investors.
                   </p>
+                  <p>
+                     Cheque in Favour of : BAJAJ FINANCE LTD. A/c 00070350006738.
+                  </p>
                </div>
                <div class="fd-chield">
                   <div class="fd-header-section">
                      <div class="fd-header">
                         <div class="company-title">
-                           <h3>Special Tenure Schem</h3>
+                           <h3>Special Tenure Scheme</h3>
                         </div>
                         <div class="company-amt">
                            <span class="h-amt">
@@ -221,7 +224,7 @@
                   <div class="fd-header">
 
                      <div class="company-title">
-                        <h3>ICICI Home Finance Fixed Deposit</h3>
+                        <h3>ICICI Home Finance Fixed Deposit (28/11/2024)</h3>
                      </div>
 
                   </div>
@@ -364,7 +367,7 @@
                                  </tr>
                                  <tr>
                                     <td>48-60</td>
-                                    <td>8.74</td>
+                                    <td>8.70</td>
                                  </tr>
                               </tbody>
                            </table>
@@ -378,14 +381,14 @@
                      0.25% Xtra for Senior Citizen, KYC Reqruied of all Investors.
                   </p>
                   <p>
-                  Cheque in Favour of "ICICI Home Fin-FD A/c".
+                     Cheque in Favour of "ICICI Home Fin-FD A/c".
                   </p>
                </div>
                <div class="fd-chield">
                   <div class="fd-header-section">
                      <div class="fd-header">
                         <div class="company-title">
-                           <h3>ICICI Home Finance Fixed Deposits (Special Scheme)</h3>
+                           <h3>ICICI Home Finance Fixed Deposits (Special Scheme) (28/11/2024)</h3>
                         </div>
                         <!-- <div class="company-amt">
                            <span class="h-amt">
@@ -436,7 +439,7 @@
                         0.25% Xtra for Senior Citizen, KYC Required of all Investors .
                      </p>
                      <p>
-                     Cheque in Favour of "ICICI Home Fin-FD A/c".
+                        Cheque in Favour of "ICICI Home Fin-FD A/c".
                      </p>
 
                   </div>
@@ -450,7 +453,7 @@
                   <div class="fd-header">
 
                      <div class="company-title">
-                        <h3>Mahindra & Mahindra Financial Services Ltd</h3>
+                        <h3>Mahindra & Mahindra Financial Services Ltd. (25/04/2024)</h3>
                      </div>
 
                   </div>
@@ -663,7 +666,7 @@
                      Pan Card Xerox, Photo and Address Proof Required of all Investors.
                   </p>
                   <p>
-                  Cheque in favour of "MMFSL FIXED DEPOSIT".
+                     Cheque in favour of "MMFSL FIXED DEPOSIT".
                   </p>
                </div>
 
@@ -676,7 +679,7 @@
                   <div class="fd-header">
 
                      <div class="company-title">
-                        <h3>PNB Housing Finance Ltd.</h3>
+                        <h3>PNB Housing Finance Ltd. (05/05/2025)</h3>
                      </div>
 
                   </div>
@@ -700,15 +703,15 @@
                               <tbody>
                                  <tr>
                                     <td>12-23</td>
-                                    <td>7.21 </td>
+                                    <td>7.16 </td>
                                  </tr>
                                  <tr>
                                     <td>24-35</td>
-                                    <td>7.02 </td>
+                                    <td>7.11 </td>
                                  </tr>
                                  <tr>
                                     <td>36-47</td>
-                                    <td>7.49</td>
+                                    <td>7.39</td>
                                  </tr>
                                  <tr>
                                     <td>48-59</td>
@@ -716,7 +719,7 @@
                                  </tr>
                                  <tr>
                                     <td>60</td>
-                                    <td>7.35</td>
+                                    <td>7.25</td>
                                  </tr>
                               </tbody>
                            </table>
@@ -739,15 +742,15 @@
                               <tbody>
                                  <tr>
                                     <td>12-23</td>
-                                    <td>7.25 </td>
+                                    <td>7.20 </td>
                                  </tr>
                                  <tr>
                                     <td>24-35</td>
-                                    <td>7.06</td>
+                                    <td>7.16</td>
                                  </tr>
                                  <tr>
                                     <td>36-47</td>
-                                    <td>7.53</td>
+                                    <td>7.44</td>
                                  </tr>
                                  <tr>
                                     <td>48-59</td>
@@ -755,7 +758,7 @@
                                  </tr>
                                  <tr>
                                     <td>60</td>
-                                    <td>7.39</td>
+                                    <td>7.30</td>
                                  </tr>
                               </tbody>
                            </table>
@@ -778,23 +781,23 @@
                               <tbody>
                                  <tr>
                                     <td>12-23</td>
-                                    <td>7.32 </td>
+                                    <td>7.27 </td>
                                  </tr>
                                  <tr>
                                     <td>24-35</td>
-                                    <td>7.12</td>
+                                    <td>7.22</td>
                                  </tr>
                                  <tr>
                                     <td>36-47</td>
-                                    <td>7.61</td>
+                                    <td>7.51</td>
                                  </tr>
                                  <tr>
                                     <td>48-59</td>
-                                    <td>7.26</td>
+                                    <td>7.27</td>
                                  </tr>
                                  <tr>
                                     <td>60</td>
-                                    <td>7.46</td>
+                                    <td>7.36</td>
                                  </tr>
                               </tbody>
                            </table>
@@ -817,15 +820,15 @@
                               <tbody>
                                  <tr>
                                     <td>12-23</td>
-                                    <td>7.45</td>
+                                    <td>7.40</td>
                                  </tr>
                                  <tr>
                                     <td>24-35</td>
-                                    <td>7.25</td>
+                                    <td>7.35</td>
                                  </tr>
                                  <tr>
                                     <td>36-47</td>
-                                    <td>7.75</td>
+                                    <td>7.65</td>
                                  </tr>
                                  <tr>
                                     <td>48-59</td>
@@ -833,7 +836,7 @@
                                  </tr>
                                  <tr>
                                     <td>60</td>
-                                    <td>7.60</td>
+                                    <td>7.50</td>
                                  </tr>
                               </tbody>
                            </table>
@@ -856,15 +859,15 @@
                               <tbody>
                                  <tr>
                                     <td>12-23</td>
-                                    <td>7.45</td>
+                                    <td>7.40</td>
                                  </tr>
                                  <tr>
                                     <td>24-35</td>
-                                    <td>7.51</td>
+                                    <td>7.62</td>
                                  </tr>
                                  <tr>
                                     <td>36-47</td>
-                                    <td>8.37</td>
+                                    <td>8.25</td>
                                  </tr>
                                  <tr>
                                     <td>48-59</td>
@@ -872,7 +875,7 @@
                                  </tr>
                                  <tr>
                                     <td>60</td>
-                                    <td>8.85</td>
+                                    <td>8.71</td>
                                  </tr>
                               </tbody>
                            </table>
@@ -883,14 +886,18 @@
                <div class="note-section">
                   <h4>Note :</h4>
                   <p>
-                     Senior Citizen will get 0.25% Extra.
+                     Senior Citizen will get 0.30% (12-35 months)
+                  </p>
+                  <p>
+                     Senior Citizen will get 0.20% (36 months and above)
+                  </p>
+                  <p>
+                     Cheque in favour favour of " PNB HOUSING FINANCE LTD" .
                   </p>
                   <p>
                      Pan Card Xerox, Photo and Address Proof Required of all Investors.
                   </p>
-                  <p>
-                  Cheque in favour of "MMFSL FIXED DEPOSIT".
-                  </p>
+
                </div>
 
             </div>
@@ -902,7 +909,7 @@
                   <div class="fd-header">
 
                      <div class="company-title">
-                        <h3>Shriram -UNNATI Fixed Deposit</h3>
+                        <h3>Shriram -UNNATI Fixed Deposit (02/05/2025)</h3>
                      </div>
 
                   </div>
@@ -926,35 +933,29 @@
                               <tbody>
                                  <tr>
                                     <td>12</td>
-                                    <td> 7.59 </td>
+                                    <td> 7.39 </td>
                                  </tr>
                                  <tr>
                                     <td>18</td>
-                                    <td> 7.73</td>
+                                    <td> 7.53</td>
                                  </tr>
                                  <tr>
                                     <td>24</td>
-                                    <td>7.87</td>
+                                    <td>7.63</td>
                                  </tr>
-                                 <tr>
-                                    <td>30</td>
-                                    <td> 8.05</td>
-                                 </tr>
+
                                  <tr>
                                     <td>36</td>
-                                    <td>8.38</td>
+                                    <td>8.09</td>
                                  </tr>
-                                 <tr>
-                                    <td>42</td>
-                                    <td>8.42</td>
-                                 </tr>
+
                                  <tr>
                                     <td>50</td>
-                                    <td>8.47</td>
+                                    <td>8.09</td>
                                  </tr>
                                  <tr>
                                     <td>* 60</td>
-                                    <td>8.47</td>
+                                    <td>8.09</td>
                                  </tr>
 
 
@@ -979,35 +980,29 @@
                               <tbody>
                                  <tr>
                                     <td>12</td>
-                                    <td>7.63 </td>
+                                    <td>7.44 </td>
                                  </tr>
                                  <tr>
                                     <td>18</td>
-                                    <td>7.77</td>
+                                    <td>7.58</td>
                                  </tr>
                                  <tr>
                                     <td>24</td>
-                                    <td>7.92</td>
+                                    <td>7.68</td>
                                  </tr>
-                                 <tr>
-                                    <td>30</td>
-                                    <td>8.10</td>
-                                 </tr>
+
                                  <tr>
                                     <td>36</td>
-                                    <td> 8.43</td>
+                                    <td> 8.15</td>
                                  </tr>
-                                 <tr>
-                                    <td>42</td>
-                                    <td>8.47</td>
-                                 </tr>
+
                                  <tr>
                                     <td>50</td>
-                                    <td> 8.52</td>
+                                    <td> 8.15</td>
                                  </tr>
                                  <tr>
                                     <td>* 60</td>
-                                    <td>8.52</td>
+                                    <td>8.15</td>
                                  </tr>
 
 
@@ -1032,35 +1027,29 @@
                               <tbody>
                                  <tr>
                                     <td>12</td>
-                                    <td>7.71</td>
+                                    <td>7.51</td>
                                  </tr>
                                  <tr>
                                     <td>18</td>
-                                    <td>7.85</td>
+                                    <td>7.65</td>
                                  </tr>
                                  <tr>
                                     <td>24</td>
-                                    <td>8</td>
+                                    <td>7.75</td>
                                  </tr>
-                                 <tr>
-                                    <td>30</td>
-                                    <td> 8.18</td>
-                                 </tr>
+
                                  <tr>
                                     <td>36</td>
-                                    <td> 8.52</td>
+                                    <td> 8.23</td>
                                  </tr>
-                                 <tr>
-                                    <td>42</td>
-                                    <td> 8.56</td>
-                                 </tr>
+
                                  <tr>
                                     <td>50</td>
-                                    <td> 8.62</td>
+                                    <td> 8.23</td>
                                  </tr>
                                  <tr>
                                     <td>* 60</td>
-                                    <td> 8.62</td>
+                                    <td> 8.23</td>
                                  </tr>
 
 
@@ -1085,35 +1074,29 @@
                               <tbody>
                                  <tr>
                                     <td>12</td>
-                                    <td>7.85</td>
+                                    <td>7.65</td>
                                  </tr>
                                  <tr>
                                     <td>18</td>
-                                    <td> 8.00</td>
+                                    <td>7.80</td>
                                  </tr>
                                  <tr>
                                     <td>24</td>
-                                    <td> 8.15</td>
+                                    <td>7.90</td>
                                  </tr>
-                                 <tr>
-                                    <td>30</td>
-                                    <td>8.35</td>
-                                 </tr>
+
                                  <tr>
                                     <td>36</td>
-                                    <td>8.70</td>
+                                    <td>8.40</td>
                                  </tr>
-                                 <tr>
-                                    <td>42</td>
-                                    <td>8.75</td>
-                                 </tr>
+
                                  <tr>
                                     <td>50</td>
-                                    <td> 8.80</td>
+                                    <td> 8.40</td>
                                  </tr>
                                  <tr>
                                     <td>* 60</td>
-                                    <td>8.80</td>
+                                    <td>8.40</td>
                                  </tr>
 
 
@@ -1138,35 +1121,29 @@
                               <tbody>
                                  <tr>
                                     <td>12</td>
-                                    <td>7.85 </td>
+                                    <td>7.65 </td>
                                  </tr>
                                  <tr>
                                     <td>18</td>
-                                    <td> 8.16</td>
+                                    <td>7.95</td>
                                  </tr>
                                  <tr>
                                     <td>24</td>
-                                    <td> 8.49</td>
+                                    <td>8.21</td>
                                  </tr>
-                                 <tr>
-                                    <td>30</td>
-                                    <td>8.88</td>
-                                 </tr>
+
                                  <tr>
                                     <td>36</td>
-                                    <td>9.49</td>
+                                    <td>9.12</td>
                                  </tr>
-                                 <tr>
-                                    <td>42</td>
-                                    <td> 9.75</td>
-                                 </tr>
+
                                  <tr>
                                     <td>50</td>
-                                    <td> 10.10</td>
+                                    <td>9.58</td>
                                  </tr>
                                  <tr>
                                     <td>* 60</td>
-                                    <td>10.50</td>
+                                    <td>9.93</td>
                                  </tr>
                               </tbody>
                            </table>
@@ -1186,10 +1163,10 @@
                      Additional benefit for Women 0.10%.
                   </p>
                   <p>
-                  Cheque in Favour of "SHRIRAM FINANCE LIMITED".
+                     Cheque in Favour of "SHRIRAM FINANCE LIMITED".
                   </p>
                   <p>
-                     <strong class="text-danger">* Special Deposit-Jubilee Deposit</strong>
+                     <strong class="text-danger">* Special deposit- Jubilee Deposit 5th April 2023</strong>
                      <br>
                      <span class="text-danger">
                         Minimum mobilization has to be 20 Lacs for the company.
@@ -1210,7 +1187,7 @@
                   <div class="fd-header">
 
                      <div class="company-title">
-                        <h3>LIC Housing Finance Limited</h3>
+                        <h3>LIC Housing Finance Limited (01/04/2025)</h3>
                      </div>
                      <div class="company-amt">
                         <span class="h-amt">
@@ -1292,7 +1269,7 @@
                      Senior Citizen will get 0.25% .
                   </p>
                   <p>
-                  Cheque in Favour of “LIC Housing Finance Limited-Collection A/C."
+                     Cheque in Favour of “LIC Housing Finance Limited-Collection A/C."
                   </p>
                   <p>
                      Additional Deposit in multiples of Rs. 10000/-( Monthly/Quarterly).
@@ -1311,7 +1288,7 @@
                   <div class="fd-header">
 
                      <div class="company-title">
-                        <h3>Rural Electrification Corporation limited</h3>
+                        <h3>Rural Electrification Corporation limited (01/04/2024)</h3>
                      </div>
 
                   </div>
@@ -1711,6 +1688,123 @@
                         Pan Card and Address Proof (AADHAR ) Xerox Required of all Investors.
                      </p>
                   </div>
+               </div>
+               <div class="fd-chield">
+                  <div class="fd-header-section">
+                     <div class="fd-header">
+                        <div class="company-title">
+                           <h3>State Bank Of India Floating Rates Savings Bonds,2020 </h3>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="fd-table-section">
+                     <div class="row">
+                        <div class="col-lg-12 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                           <div class="fd-table table-responsive">
+                              <table class="table responsive-table">
+                                 <thead>
+                                    <tr>
+                                       <th rowspan="2">Date</th>
+                                       <th colspan="2">Monthly</th>
+                                       <th colspan="2">Quarterly</th>
+                                       <th colspan="2">Half Yearly</th>
+                                       <th colspan="2">Yearly</th>
+                                       <th colspan="2">CDY</th>
+                                    </tr>
+                                    <tr>
+                                       <th>Amount(Rs)</th>
+                                       <th>ROI(%)</th>
+                                       <th>Amount(Rs)</th>
+                                       <th>ROI(%)</th>
+                                       <th>Amount(Rs)</th>
+                                       <th>ROI(%)</th>
+                                       <th>Amount(Rs.)</th>
+                                       <th>ROI(%)</th>
+                                       <th>Amount(Rs.)</th>
+                                       <th>ROI(%)</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    <tr>
+                                       
+                                       <td>01-07-2020</td>
+                                       <td>84</td>
+                                       <td>NA</td>
+                                       <td>NA</td>
+                                       <td>NA</td>
+                                       <td>NA</td>
+                                       <td>NA</td>
+                                       <td>1000.00</td>
+                                       <td>8.05</td>
+                                       <td>NA</td>
+                                       <td>NA</td>
+                                    </tr>
+                                    
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+                     </div>
+                  </div>                  
+               </div>
+               <div class="fd-chield">
+                  <div class="fd-header-section">
+                     <div class="fd-header">
+                        <div class="company-title">
+                           <h3>HDFC Bank Floating Rates Savings Bonds,2020</h3>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="fd-table-section">
+                     <div class="row">
+                        <div class="col-lg-12 mb-sm-1 mb-md-1 mb-lg-5 mb-xl-0  pe-xl-0 ps-xl-2">
+                           <div class="fd-table table-responsive">
+                              <table class="table responsive-table">
+                                 <thead>
+                                    <tr>
+                                       <th rowspan="2">Date</th>
+                                       <th colspan="2">Monthly</th>
+                                       <th colspan="2">Quarterly</th>
+                                       <th colspan="2">Half Yearly</th>
+                                       <th colspan="2">Yearly</th>
+                                       <th colspan="2">CDY</th>
+                                    </tr>
+                                    <tr>
+                                       <th>Amount(Rs)</th>
+                                       <th>ROI(%)</th>
+                                       <th>Amount(Rs)</th>
+                                       <th>ROI(%)</th>
+                                       <th>Amount(Rs)</th>
+                                       <th>ROI(%)</th>
+                                       <th>Amount(Rs.)</th>
+                                       <th>ROI(%)</th>
+                                       <th>Amount(Rs.)</th>
+                                       <th>ROI(%)</th>
+                                    </tr>
+                                 </thead>
+                                 <tbody>
+                                    
+                                    <tr>
+                                       
+                                       <td>01-07-2020</td>
+                                       <td>84</td>
+                                       <td>NA</td>
+                                       <td>NA</td>
+                                       <td>NA</td>
+                                       <td>NA</td>
+                                       <td>NA</td>
+                                       <td>1000.00</td>
+                                       <td>8.05</td>
+                                       <td>NA</td>
+                                       <td>NA</td>
+                                    </tr>
+                                 </tbody>
+                              </table>
+                           </div>
+                        </div>
+
+                     </div>
+                  </div>                  
                </div>
             </div>
             <div class="pd_bottom_30"></div>

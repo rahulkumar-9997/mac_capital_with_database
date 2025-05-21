@@ -1,4 +1,3 @@
-
 @extends('frontend.layouts.master')
 @section('title','MAC Capital Services (P) LTD')
 @section('description', 'MAC Capital is a boutique corporate financial advisory firm with a strong focus on the middle market sector in India.')
@@ -6,8 +5,9 @@
 @section('main-content')
 <!--===============PAGE CONTENT==============-->
 <div id="content" class="site-content">
-   <div class="banner_section_hm_16 ">
-      <div class="inner_section bg_op_1 banner-section-icon" style="background: linear-gradient(to bottom,#4282aa  -18%, #021c31 127%);">
+   <div class="banner_section_hm_16 home-page">
+      <!-- background: linear-gradient(to right, #4282aa, #011b30 23%, #4282aa); -->
+      <div class="inner_section bg_op_1 banner-section-icon banner-block" style="background-image: url('{{ asset('fronted/mac-image/bg-img/1.png') }}');">
          <div class="container pd_zero">
             <div class="row gutter_30px">
                <div class="col-lg-12 pd_zero">
@@ -18,81 +18,81 @@
                               <div class="col-lg-12 col-md-12 d-flex align-items-center card-home">
                                  <div class="row">
                                     <div class="col-lg-3 col-md-3 col-12 mb-4">
-                                          <div class="service_box style_one dark_color animate-box wow fadeInUp">
-                                             <a href="{{route('mutual-funds')}}" >
-                                                <div class="service_content">
-                                                   <div class="image">
-                                                         <img src="{{asset('fronted/mac-image/banner-icon/money.png')}}" class="img-fluid" alt="Financial Services">
-                                                   </div>
-                                                   <div class="content_inner">
-                                                         <h2>
-                                                            <span style="color:#4282aa;"> Mutual Funds </span>
-                                                         </h2>
-                                                         <p style="color:#4a4e56;">Mutual funds help you grow your money by investing in a mix of stocks and bonds, managed by experts, making it easy. </p>
-                                                         <span class="read_more"> Read more </span>
-                                                   </div>
+                                       <div class="service_box style_one dark_color animate-box wow fadeInUp">
+                                          <a href="{{route('mutual-funds')}}">
+                                             <div class="service_content">
+                                                <div class="image">
+                                                   <img src="{{asset('fronted/mac-image/banner-icon/money.png')}}" class="img-fluid" alt="Financial Services">
                                                 </div>
-                                             </a>
-                                          </div>
+                                                <div class="content_inner">
+                                                   <h2>
+                                                      <span style="color:#4282aa;"> Mutual Funds </span>
+                                                   </h2>
+                                                   <p style="color:#4a4e56;">Mutual funds help you grow your money by investing in a mix of stocks and bonds, managed by experts, making it easy. </p>
+                                                   <span class="read_more"> Read more </span>
+                                                </div>
+                                             </div>
+                                          </a>
+                                       </div>
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-12 mb-4">
-                                          <div class="service_box style_one dark_color animate-box wow fadeInUp">
-                                             <a href="{{route('sme-ipos')}}" >
-                                                <div class="service_content ">
-                                                   <div class="image">
-                                                         <img src="{{asset('fronted/mac-image/banner-icon/invesment.png')}}" class="img-fluid" alt="Financial Services">
-                                                   </div>
-                                                   <div class="content_inner">
-                                                         <h2>
-                                                            <span style="color:#4282aa;"> SME IPO</span>
-                                                         </h2>
-                                                         <p style="color:#4a4e56;"> Investing in SME IPOs lets you support growing companies and offers the chance for high returns as these businesses expand.  </p>
-                                                         <span class="read_more"> Read more </span>
-                                                   </div>
+                                       <div class="service_box style_one dark_color animate-box wow fadeInUp">
+                                          <a href="{{route('sme-ipos')}}">
+                                             <div class="service_content ">
+                                                <div class="image">
+                                                   <img src="{{asset('fronted/mac-image/banner-icon/invesment.png')}}" class="img-fluid" alt="Financial Services">
                                                 </div>
-                                             </a>
-                                          </div>
+                                                <div class="content_inner">
+                                                   <h2>
+                                                      <span style="color:#4282aa;"> SME IPO</span>
+                                                   </h2>
+                                                   <p style="color:#4a4e56;"> Investing in SME IPOs lets you support growing companies and offers the chance for high returns as these businesses expand. </p>
+                                                   <span class="read_more"> Read more </span>
+                                                </div>
+                                             </div>
+                                          </a>
+                                       </div>
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-12 mb-4">
-                                          <div class="service_box style_one dark_color animate-box wow fadeInUp">
-                                             <a href="{{ route('other-services.insurance-solution') }}" >
-                                                <div class="service_content">
-                                                   <div class="image">
-                                                         <img src="{{asset('fronted/mac-image/banner-icon/insurance.png')}}" class="img-fluid" alt="Financial Services">
-                                                   </div>
-                                                   <div class="content_inner">
-                                                         <h2>
-                                                            <span style="color:#4282aa;"> Insurance</span>
-                                                         </h2>
-                                                         <p style="color:#4a4e56;">Insurance keeps you and your family safe from unexpected events by offering financial support when you need it most.
-                                                         </p>
-                                                         <span class="read_more"> Read more </span>
-                                                   </div>
+                                       <div class="service_box style_one dark_color animate-box wow fadeInUp">
+                                          <a href="{{ route('other-services.insurance-solution') }}">
+                                             <div class="service_content">
+                                                <div class="image">
+                                                   <img src="{{asset('fronted/mac-image/banner-icon/insurance.png')}}" class="img-fluid" alt="Financial Services">
                                                 </div>
-                                             </a>
-                                          </div>
+                                                <div class="content_inner">
+                                                   <h2>
+                                                      <span style="color:#4282aa;"> Insurance</span>
+                                                   </h2>
+                                                   <p style="color:#4a4e56;">Insurance keeps you and your family safe from unexpected events by offering financial support when you need it most.
+                                                   </p>
+                                                   <span class="read_more"> Read more </span>
+                                                </div>
+                                             </div>
+                                          </a>
+                                       </div>
                                     </div>
                                     <div class="col-lg-3 col-md-3 col-12 mb-4">
-                                          <div class="service_box style_one dark_color animate-box wow fadeInUp">
-                                             <a href="{{route('fixed-deposit')}}" >
-                                                <div class="service_content">
-                                                   <div class="image">
-                                                         <img src="{{asset('fronted/mac-image/banner-icon/fixed-deposit.png')}}" class="img-fluid" alt="Financial Services">
-                                                   </div>
-                                                   <div class="content_inner">
-                                                         <h2>
-                                                            <span style="color:#4282aa;"> Fixed Deposit</span>
-                                                         </h2>
-                                                         <p style="color:#4a4e56;">Fixed Deposits grow your money safely with guaranteed returns over a fixed time - simple and risk-free.</p>
-                                                         <span class="read_more"> Read more </span>
-                                                   </div>
+                                       <div class="service_box style_one dark_color animate-box wow fadeInUp">
+                                          <a href="{{route('fixed-deposit')}}">
+                                             <div class="service_content">
+                                                <div class="image">
+                                                   <img src="{{asset('fronted/mac-image/banner-icon/fixed-deposit.png')}}" class="img-fluid" alt="Financial Services">
                                                 </div>
-                                             </a>
-                                          </div>
+                                                <div class="content_inner">
+                                                   <h2>
+                                                      <span style="color:#4282aa;"> Fixed Deposit</span>
+                                                   </h2>
+                                                   <p style="color:#4a4e56;">Fixed Deposits grow your money safely with guaranteed returns over a fixed time - simple and risk-free.</p>
+                                                   <span class="read_more"> Read more </span>
+                                                </div>
+                                             </div>
+                                          </a>
+                                       </div>
                                     </div>
-                                    
+
                                  </div>
-                              </div>                              
+                              </div>
                            </div>
                            <div class="row justify-content-md-center">
                               <div class="col-lg-10">
@@ -106,7 +106,7 @@
                                           Discover the power of smart investing with our comprehensive financial services. We provide customized investment strategies and tax-saving solutions tailored to your needs, helping you achieve your financial goals with confidence. Build wealth, secure your future, and take control of your financial freedom today.
                                        </h5>
                                     </div>
-                                    
+
                                  </div>
                               </div>
                            </div>
@@ -211,17 +211,17 @@
                      </div>
                      <div class="text_box">
                         <h2>SIP</h2>
-                        
+
                      </div>
                      <a>
-                     <div class="hover_content">
-                        <div class="content">
-                           <div class="inner">
-                              <p>SIP</p>
-                              <a href="{{route('tools.sip-calculator')}}" class="read_more">Read More<span class="icon-right-arrow-long"></span></a>
+                        <div class="hover_content">
+                           <div class="content">
+                              <div class="inner">
+                                 <p>SIP</p>
+                                 <a href="{{route('tools.sip-calculator')}}" class="read_more">Read More<span class="icon-right-arrow-long"></span></a>
+                              </div>
                            </div>
                         </div>
-                     </div>
                   </div>
                </div>
                <!--===============spacing==============-->
@@ -261,7 +261,7 @@
                      </div>
                      <div class="text_box">
                         <h2>Home Loan</h2>
-                        
+
                      </div>
                      <div class="hover_content">
                         <div class="content">
@@ -285,7 +285,7 @@
                      </div>
                      <div class="text_box">
                         <h2>Health Insurance</h2>
-                        
+
                      </div>
                      <div class="hover_content">
                         <div class="content">
@@ -309,7 +309,7 @@
                      </div>
                      <div class="text_box">
                         <h2>U.S Equity</h2>
-                       
+
                      </div>
                      <div class="hover_content">
                         <div class="content">
@@ -333,7 +333,7 @@
                      </div>
                      <div class="text_box">
                         <h2>Car & Bike Insurance</h2>
-                        
+
                      </div>
                      <div class="hover_content">
                         <div class="content">
@@ -357,7 +357,7 @@
                      </div>
                      <div class="text_box">
                         <h2> Business Insurance</h2>
-                        
+
                      </div>
                      <div class="hover_content">
                         <div class="content">
@@ -381,7 +381,7 @@
                      </div>
                      <div class="text_box">
                         <h2>EKYC</h2>
-                        
+
                      </div>
                      <div class="hover_content">
                         <div class="content">
@@ -405,7 +405,7 @@
                      </div>
                      <div class="text_box">
                         <h2>Business loan</h2>
-                        
+
                      </div>
                      <div class="hover_content">
                         <div class="content">
@@ -429,7 +429,7 @@
                      </div>
                      <div class="text_box">
                         <h2> Bond & Fixed Deposit</h2>
-                        
+
                      </div>
                      <div class="hover_content">
                         <div class="content">
@@ -445,9 +445,9 @@
                <div class="pd_bottom_20"></div>
                <!--===============spacing==============-->
             </div>
-           
-            
-           
+
+
+
          </div>
       </div>
       <!--===============spacing==============-->
@@ -561,7 +561,7 @@
                                  <!-- <p> MAC Capital connects Indian businesses with Western investors, offering deal structuring guidance and practical financial advice for growth.
                                  </p> -->
                                  <p>
-                                 Equity Fund invests in company shares to grow money and earn returns.
+                                    Equity Fund invests in company shares to grow money and earn returns.
                                  </p>
                                  <a href="{{route('other-services.equity-trading')}}" class="read_more"> Read more </a>
                               </div>
@@ -913,6 +913,139 @@
       <div class="pd_bottom_10"></div>
       <!--===============spacing==============-->
    </section>
+   <!-- feature section-->
+   <section class="feature-section bg_light_1 home-feature-section wow">
+      <!--===============spacing==============-->
+      <div class="pd_top_20"></div>
+      <!--===============spacing==============-->
+      <div class="container">
+         <div class="row">
+            <div class="col-lg-12">
+               <div class="title_all_box style_seven text-center dark_color">
+                  <div class="title_sections">
+                     <div class="before_title">
+                        Features
+                     </div>
+                     <div class="small_text_sub">Features</div>
+                     <!-- <div class="title"> Take Your Life to a New Level</div>
+                     <p class="description_text">
+                        We can help you create positive and permanent changes in your life.<br>
+                        Let’s Create Something new and awesome Togeather.
+                     </p> -->
+                  </div>
+                  <!--===============spacing==============-->
+                  <div class="pd_bottom_30"></div>
+                  <!--===============spacing==============-->
+               </div>
+            </div>
+         </div>
+         <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-3">
+               <div class="icon_box_new_box type_two wow fadeInLeft">
+                  <span class="borders"></span>
+                  <div class="icon_box">
+                     <img src="{{asset('fronted/mac-image/features/zero-paperwork.svg')}}" class="img-fluid svg_image" alt="Zero Paperwork">
+                     <span class="icon_bg_rotate"></span>
+                  </div>
+                  <div class="content">
+                     <h2>
+                        <a href="javascript:void(0);">Zero Paperwork</a>
+                     </h2>
+                     <p>
+                        All your investments handled online fast, efficient, and eco-friendly.
+                     </p>
+                     
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-3">
+               <div class="icon_box_new_box type_two wow fadeInLeft">
+                  <span class="borders"></span>
+                  <div class="icon_box">
+                     <img src="{{asset('fronted/mac-image/features/seamless-onboarding.svg')}}" class="img-fluid svg_image" alt="Seamless Onboarding">
+                     <span class="icon_bg_rotate"></span>
+                  </div>
+                  <div class="content">
+                     <h2>
+                        <a href="javascript:void(0);">Seamless Onboarding</a>
+                     </h2>
+                     <p>Quick, simple, and hassle-free setup to get you started in no time.</p>
+                     
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-3">
+               <div class="icon_box_new_box type_two wow fadeInLeft">
+                  <span class="borders"></span>
+                  <div class="icon_box">
+                     <img src="{{asset('fronted/mac-image/features/complete-portfolio-tracking.svg')}}" class="img-fluid svg_image" alt="icon png">
+                     <span class="icon_bg_rotate"></span>
+                  </div>
+                  <div class="content">
+                     <h2>
+                        <a href="javascript:void(0);">Complete Portfolio Tracking</a>
+                     </h2>
+                     <p>View your entire investment portfolio in one place, with just a few clicks.</p>
+                     
+                  </div>
+               </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-3">
+               <div class="icon_box_new_box type_two wow fadeInRight">
+                  <span class="borders"></span>
+                  <div class="icon_box">
+                     <img src="{{asset('fronted/mac-image/features/zero-fees.svg')}}" class="img-fluid svg_image" alt="Zero Fees">
+                     <span class="icon_bg_rotate"></span>
+                  </div>
+                  <div class="content">
+                     <h2>
+                        <a href="javascript:void(0);"> Zero Fees</a>
+                     </h2>
+                     <p>No hidden charges. We charge absolutely nothing from our clients.</p>
+                     
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-3">
+               <div class="icon_box_new_box type_two wow fadeInRight">
+                  <span class="borders"></span>
+                  <div class="icon_box">
+                     <img src="{{asset('fronted/mac-image/features/smart-assets-allocation.svg')}}" class="img-fluid svg_image" alt="Smart Asset Allocation">
+                     <span class="icon_bg_rotate"></span>
+                  </div>
+                  <div class="content">
+                     <h2>
+                        <a href="javascript:void(0);">Smart Asset Allocation</a>
+                     </h2>
+                     <p>Receive customized asset allocation tailored to your goals.</p>
+                     
+                  </div>
+               </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 mb-3">
+               <div class="icon_box_new_box type_two wow fadeInRight">
+                  <span class="borders"></span>
+                  <div class="icon_box">
+                     <img src="{{asset('fronted/mac-image/features/one-click-transact.svg')}}" class="img-fluid svg_image" alt="One Click Transactions">
+                     <span class="icon_bg_rotate"></span>
+                  </div>
+                  <div class="content">
+                     <h2>
+                        <a href="javascript:void(0);">One Click Transactions</a>
+                     </h2>
+                     <p>Invest, redeem, or insure all with just a few clicks.</p>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--===============spacing==============-->
+      <div class="pd_bottom_40"></div>
+      <!--===============spacing==============-->
+   </section>
+   <!-- feature section-->
    <!---process--->
    <section class="service-section-two wow fadeInUp">
       <!--===============spacing==============-->
@@ -1012,7 +1145,6 @@
 @endsection
 @push('scripts')
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
 <script>
    $(document).ready(function() {
       var $lumpsumInput = $("#lumpsum");

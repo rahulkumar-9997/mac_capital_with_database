@@ -3527,16 +3527,16 @@ body .enabled_custom_title .title_page .main_tit {
 .header .header_content_collapse .navigation_menu .navbar_nav li a.nav-link,
 .default_sickty_heaad .header_content_collapse .navigation_menu .navbar_nav li a.nav-link {
   font-size: 18px;
-  line-height: 65px;
-  padding: 0;
-  font-weight: 700;
-  color: var(--menu-color);
-  font-family: var(--creote-family-one);
+    line-height: 25px;
+    padding: 0;
+    font-weight: 600;
+    color: var(--menu-color);
+    font-family: var(--creote-family-one);
   transition: 0.5s ease-in-out;
   -ms-transition: 0.5s ease-in-out;
   -moz-transition: 0.5s ease-in-out;
   -o-transition: 0.5s ease-in-out;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 .header .header_content_collapse .navigation_menu .navbar_nav li a.nav-link:hover,
 .default_sickty_heaad .header_content_collapse .navigation_menu .navbar_nav li a.nav-link:hover {
@@ -10582,7 +10582,7 @@ header .flaticon-list {
   margin-bottom: 5px;
 }
 .team_intro_box .team_intro_inner .team_intro_start .title h1 {
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 700;
     color: #fff;
     line-height: 30px;
@@ -10604,7 +10604,7 @@ header .flaticon-list {
 }
 .team_intro_box .team_intro_inner .team_intro_start .quotes h5 {
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 500;
   color: #fff;
   line-height: 27px;
   margin-bottom: 10px;
@@ -10852,7 +10852,7 @@ header .flaticon-list {
   position: relative;
 }
 .service_box.style_one .service_content .content_inner h2 a {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--heading-dark);
   display: block;
@@ -10860,8 +10860,8 @@ header .flaticon-list {
   margin-bottom: 10px;
 }
 .service_box.style_one .service_content .content_inner h2 span {
-  font-size: 22px;
-  font-weight: 700;
+  font-size: 18px;
+    font-weight: 600;
   color: var(--heading-dark);
   display: block;
   line-height: 32px;
@@ -11085,7 +11085,7 @@ header .flaticon-list {
   background: #fff;
 }
 .service_box.style_two .service_content_two .overlay_content h2 a {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--heading-dark);
   display: block;
@@ -15297,7 +15297,7 @@ header .flaticon-list {
   font-family: var(--creote-family-one);
 }
 .title_all_box.style_one .title_sections .title, .title_all_box.style_one .title_sections h1, .title_all_box.style_one .title_sections h2, .title_all_box.style_one .title_sections h3, .title_all_box.style_one .title_sections h4, .title_all_box.style_one .title_sections h5, .title_all_box.style_one .title_sections h6, .title_all_box.style_two .title_sections .title, .title_all_box.style_two .title_sections h1, .title_all_box.style_two .title_sections h2, .title_all_box.style_two .title_sections h3, .title_all_box.style_two .title_sections h4, .title_all_box.style_two .title_sections h5, .title_all_box.style_two .title_sections h6 {
-  font-size: 22px;
+  font-size: 20px;
     line-height: 25px;
   font-weight: 700;
   color: var(--heading-dark);
@@ -15506,13 +15506,19 @@ header .flaticon-list {
   font-weight: 500;
 }
 .title_all_box.style_seven .before_title {
-  font-size: 18px;
+  
   padding-bottom: 10px;
-  color: var(--primary-color-one);
   font-family: var(--creote-family-one);
-  text-transform: uppercase;
-  font-weight: 500;
+  /* text-transform: uppercase; */
   padding-top: 23px;
+
+  font-size: 27px;
+  line-height: 35px;
+  font-weight: 700;
+  color: var(--heading-dark);
+}
+.home-feature-section .icon_box_new_box.type_two{
+  height: unset;
 }
 .title_all_box.style_seven .small_text_sub {
   position: absolute;
@@ -15645,7 +15651,7 @@ header .flaticon-list {
   position: relative;
 }
 .process_box.style_one .process_box_outer .content_box h2 a {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 700;
   color: var(--heading-dark);
   line-height: 32px;
@@ -18373,11 +18379,11 @@ header .flaticon-list {
   font-weight: 700;
 }
 .icon_box_all.style_five .icon_content h2 {
-  font-size: 18px;
+    font-size: 17px;
     line-height: 18px;
-  font-weight: 700;
-  color: var(--heading-dark);
-  margin-bottom: 10px;
+    font-weight: 600;
+    color: var(--heading-dark);
+    margin-bottom: 10px;
 }
 .icon_box_all.style_five .icon_content .hover_content {
   position: absolute;

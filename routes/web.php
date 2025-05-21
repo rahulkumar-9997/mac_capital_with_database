@@ -1,6 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+/**Backend controller */
+use App\Http\Controllers\Backend\LoginController;
+use App\Http\Controllers\Backend\ForgotPasswordController;
+use App\Http\Controllers\Backend\DashboardController;
+/**Backend controller */
+
+
 use App\Http\Controllers\Frontend\FrontHomeController;
 use App\Http\Controllers\Frontend\SiteMapController;
 /*
@@ -13,6 +20,21 @@ use App\Http\Controllers\Frontend\SiteMapController;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::prefix('admin')->group(function () {
+    Route::get('/login', [LoginController::class, 'showLoginForm']);
+    Route::post('/login', [LoginController::class, 'login'])->name('login');
+    Route::get('forget/password', [ForgotPasswordController::class, 'showForgetPasswordForm'])->name('forget.password');
+    Route::post('forget.password', [ForgotPasswordController::class, 'submitForgetPasswordForm'])->name('forget.password.submit');
+
+    Route::get('reset-password/{token}', [ForgotPasswordController::class, 'showResetPasswordForm'])->name('reset.password.get');
+    Route::post('reset-password', [ForgotPasswordController::class, 'submitResetPasswordForm'])->name('reset.password.post');
+
+    Route::get('/logout', [LoginController::class, 'logout'])->name('logout');
+});
+// Route::group(['middleware' => ['auth']], function() {
+    Route::get('dashboard', [DashboardController::class, 'index'])->name('dashboard');
+// });
+
 
 Route::get('/', [FrontHomeController::class, 'home'])->name('home');
 Route::get('about-us', [FrontHomeController::class, 'aboutUs'])->name('about-us');
