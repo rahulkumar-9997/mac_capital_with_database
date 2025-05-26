@@ -7,7 +7,6 @@
     <body class="theme-creote">
 		<div id="page" class="page_wapper hfeed site">
 			<div id="wrapper_full" class="content_all_warpper">
-				
 				@include('frontend.layouts.header-menu')
 				@yield('main-content')
 			</div>

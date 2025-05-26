@@ -10,19 +10,23 @@ class LoginController extends Controller
 {
     // https://dev.to/codeanddeploy/laravel-8-user-roles-and-permissions-step-by-step-tutorial-1dij
     public function showLoginForm(Request $request){
-        return view('backend.auth.index');
+        return view('Backend.auth.index');
     }
 
     public function login(Request $request)
     {
-        $data = [
-            'email' => $request->email,
-            'password' => $request->password
-        ];
-        if (auth()->attempt($data)) {
-            return redirect()->intended('dashboard')->withSuccess('You have successfully signed in !');
+        $request->validate([
+        'email' => 'required|string',
+        'password' => 'required|string|min:8',
+        ]);
+
+        $login = $request->input('email');
+        $password = $request->input('password');
+        $fieldType = filter_var($login, FILTER_VALIDATE_EMAIL) ? 'email' : 'user_id';
+        if (auth()->attempt([$fieldType => $login, 'password' => $password])) {
+            return redirect()->intended('dashboard')->withSuccess('You have successfully signed in!');
         } else {
-            return redirect()->back()->with('error','Oppes! You have entered invalid credentials');
+            return redirect()->back()->with('error', 'Oops! Invalid login credentials.');
         }
     }
 

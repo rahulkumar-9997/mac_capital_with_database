@@ -2,18 +2,18 @@
 <div class="sidebar" id="sidebar">
    <!-- Logo -->
    <div class="sidebar-logo active">
-      <a href="{{ route('dashboard')}}" class="logo logo-normal">
-         <img src="{{asset('backend/assets/img/logo.svg')}}" alt="Img">
+      <a href="{{ route('dashboard') }}" class="logo logo-normal">
+         <img src="{{asset('backend/assets/mac-img/mac-capital-logo.png')}}" alt="Img">
       </a>
-      <a href="{ route('dashboard')}}" class="logo logo-white">
-         <img src="{{asset('backend/assets/img/logo-white.svg')}}" alt="Img">
+      <a href="{{ route('dashboard') }}" class="logo logo-white">
+         <img src="{{asset('backend/assets/mac-img/mac-capital-logo.png')}}" alt="Img">
       </a>
-      <a href="{ route('dashboard')}}" class="logo-small">
-         <img src="{{asset('backend/assets/img/logo-small.png')}}" alt="Img">
+      <a href="{{ route('dashboard')}}" class="logo-small">
+         <img src="{{asset('backend/assets/mac-img/fav-icon.png')}}" alt="Img">
       </a>
-      <a id="toggle_btn" href="javascript:void(0);">
+      <!-- <a id="toggle_btn" href="javascript:void(0);">
          <i data-feather="chevrons-left" class="feather-16"></i>
-      </a>
+      </a> -->
    </div>
    <!-- /Logo -->
    <div class="modern-profile p-3 pb-0">
@@ -82,8 +82,30 @@
                         <span>Dashboard</span>
                      </a>
                   </li>
-                  
-                  
+                  <li class="submenu">
+                     <a href="javascript:void(0);">
+                        <i class="ti ti-brand-apple-arcade fs-16 me-2"></i>
+                        <span>Manage Pages</span>
+                        <span class="menu-arrow"></span>
+                     </a>
+                     <ul>
+                        <li><a href="{{ route('pages.index') }}">All Pages</a></li>
+                        <li><a href="{{ route('pages.create') }}">Create Page</a></li>
+                     </ul>
+                  </li>
+
+                  <li class="submenu">
+                     <a href="javascript:void(0);">
+                        <i class="ti ti-layout-grid-add fs-16 me-2"></i>
+                        <span>Manage Menus</span>
+                        <span class="menu-arrow"></span>
+                     </a>
+                     <ul>
+                        <li><a href="{{ route('menus.index') }}">All Menus</a></li>
+                        <li><a href="{{ route('menus.create') }}">Create Menu</a></li>
+                     </ul>
+                  </li>
+
                </ul>
             </li>
          </ul>

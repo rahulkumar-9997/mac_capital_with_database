@@ -58,9 +58,9 @@
                                         </div>
                                         @endif
                                         <div class="mb-3">
-                                            <label class="form-label">Email <span class="text-danger"> *</span></label>
+                                            <label class="form-label">Email OR User id <span class="text-danger"> *</span></label>
                                             <div class="input-group">
-                                                <input type="text" value="" class="form-control border-end-0">
+                                                <input type="text" value="" class="form-control border-end-0" name="email">
                                                 <span class="input-group-text border-start-0">
                                                     <i class="ti ti-mail"></i>
                                                 </span>
@@ -69,7 +69,7 @@
                                         <div class="mb-3">
                                             <label class="form-label">Password <span class="text-danger"> *</span></label>
                                             <div class="pass-group">
-                                                <input type="password" class="pass-input form-control">
+                                                <input type="password" class="pass-input form-control" name="password">
                                                 <span class="ti toggle-password ti-eye-off text-gray-9"></span>
                                             </div>
                                         </div>

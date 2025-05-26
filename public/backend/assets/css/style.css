@@ -15812,8 +15812,8 @@ hr {
   align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  justify-content: center;
-  -webkit-justify-content: center;
+  justify-content: flex-end;
+  -webkit-justify-content: flex-end;
   -ms-flex-pack: center;
   margin: 0;
   position: relative;
@@ -16340,7 +16340,7 @@ div#global-loader .whirly-loader:not(:required) {
 }
 .sidebar, .settings-sidebar {
   display: block;
-  background-color: #ffffff;
+  background-color: #262d34;
   margin-top: 0;
   z-index: 1001;
   position: fixed;
@@ -16519,10 +16519,10 @@ div#global-loader .whirly-loader:not(:required) {
 .sidebar .sidebar-menu > ul > li.submenu-open ul li a span, .settings-sidebar .sidebar-menu > ul > li.submenu-open ul li a span {
   white-space: nowrap;
   font-size: 14px;
-  color: #212B36;
+  color: #e4e9f4;
 }
 .sidebar .sidebar-menu > ul > li.submenu-open ul li a i, .settings-sidebar .sidebar-menu > ul > li.submenu-open ul li a i {
-  color: #646B72;
+  color: #e4e9f4;
 }
 .sidebar .sidebar-menu > ul > li.submenu-open ul li a.active, .settings-sidebar .sidebar-menu > ul > li.submenu-open ul li a.active {
   color: #FE9F43;
@@ -17045,7 +17045,8 @@ body.mini-sidebar.expand-menu .sidebar .sidebar-menu > ul > li.submenu-open ul l
   align-items: center;
   padding: 0 24px;
   height: 65px;
-  border-bottom: 1px solid #E6EAED;
+  background: #d40000a3;
+  /* border-bottom: 1px solid #E6EAED; */
 }
 .sidebar .sidebar-logo .logo img {
   width: 130px;
@@ -35071,10 +35072,11 @@ a.link-hover:hover {
   justify-content: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
-  background-image: url(../img/authentication/login-bg.png);
+  background: linear-gradient(to bottom, #63bee2 -18%, #f9f9f9 63%);
+  /* background-image: url(../img/authentication/login-bg.png);
   background-position: bottom center;
   background-repeat: no-repeat;
-  background-size: 100% 500px;
+  background-size: 100% 500px; */
 }
 .login-wrapper.login-new .login-content.user-login .login-userset form .otp-box {
   margin-bottom: 34px;
@@ -45955,6 +45957,9 @@ span.flatpickr-weekday {
 .bootstrap-tagsinput .label-info {
   position: relative;
   background: #E8E9EA;
+}
+.note-editable {
+    min-height: 300px !important;
 }
 
 /*# sourceMappingURL=style.css.map */

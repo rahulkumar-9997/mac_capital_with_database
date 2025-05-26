@@ -11,7 +11,7 @@
             @include('backend.layouts.header')
             @include('backend.layouts.sidebar')
             <div class="page-wrapper">
-			    <div class="content">
+			    <div class="content-section">
                     @yield('main-content')
                 </div>
                 @include('backend.layouts.footer')

@@ -30940,3 +30940,6 @@ body.side_menu_toggled .style-switcher {
 .fd-chield .fd-header-section{
     padding: 6px 10px 5px 10px;
 }
+.left-sidebar .content-area.full-content::before {
+  display: none;
+}

@@ -119,7 +119,7 @@ $(document).ready(function(){
 		$('.datatable').DataTable({
 			"bFilter": true,
 			"sDom": 'fBtlpi',  
-			"ordering": true,
+			"ordering": false,
 			"language": {
 				search: ' ',
 				sLengthMenu: '_MENU_',
@@ -357,10 +357,55 @@ $(document).ready(function(){
 
 	if($('#summernote').length > 0) {
 		$('#summernote').summernote({
-		height: 300,                 // set editor height
+		height: 500,                 // set editor height
 		minHeight: null,             // set minimum height of editor
 		maxHeight: null,             // set maximum height of editor
-		focus: false                 // set focus to editable area after initializing summernote
+		focus: false,
+		
+		toolbar: [
+			['style', ['style']],
+			['font', ['bold', 'italic', 'underline', 'clear']],
+			['para', ['ul', 'ol', 'paragraph']],
+			['insert', ['link', 'picture', 'video']],
+			['view', ['fullscreen', 'codeview']]
+		],
+		 prettifyHtml: false,
+        codeviewFilter: true,
+        codeviewIframeFilter: true,
+        // Remove style attributes
+        styleTags: ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
+        // Callback for paste event
+        callbacks: {
+            onPaste: function(e) {
+                // Get pasted HTML
+                var clipboardData = e.originalEvent.clipboardData || window.clipboardData;
+                var pastedData = clipboardData.getData('Text/html');
+                
+                if (pastedData) {
+                    e.preventDefault();
+                    
+                    // Create temporary div to parse HTML
+                    var tempDiv = document.createElement('div');
+                    tempDiv.innerHTML = pastedData;
+                    
+                    // Remove all style attributes
+                    var elementsWithStyle = tempDiv.querySelectorAll('[style]');
+                    elementsWithStyle.forEach(function(el) {
+                        el.removeAttribute('style');
+                    });
+                    
+                    // Remove all class attributes
+                    var elementsWithClass = tempDiv.querySelectorAll('[class]');
+                    elementsWithClass.forEach(function(el) {
+                        el.removeAttribute('class');
+                    });
+                    
+                    // Insert cleaned content
+                    document.execCommand('insertHTML', false, tempDiv.innerHTML);
+                }
+            }
+        }
+			
 		});
 	}
 	
