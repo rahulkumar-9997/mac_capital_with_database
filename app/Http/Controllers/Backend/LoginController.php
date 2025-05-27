@@ -10,7 +10,7 @@ class LoginController extends Controller
 {
     // https://dev.to/codeanddeploy/laravel-8-user-roles-and-permissions-step-by-step-tutorial-1dij
     public function showLoginForm(Request $request){
-        return view('Backend.auth.index');
+        return view('backend.auth.index');
     }
 
     public function login(Request $request)

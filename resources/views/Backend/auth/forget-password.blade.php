@@ -60,7 +60,7 @@
                                         <div class="mb-3">
                                             <label class="form-label">Enter your registered email id/user id <span class="text-danger"> *</span></label>
                                             <div class="input-group">
-                                                <input type="text" value="" class="form-control border-end-0">
+                                                <input type="email" class="form-control border-end-0" name="email">
                                                 <span class="input-group-text border-start-0">
                                                     <i class="ti ti-mail"></i>
                                                 </span>
