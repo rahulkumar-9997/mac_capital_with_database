@@ -42,11 +42,7 @@
 .note-editor .dropdown-menu {
     z-index: 1050 !important;
 }
-.note-editor .note-dropdown-menu.dropdown-menu {
-    display: block !important;
-    position: absolute;
-    z-index: 1051 !important;
-}
+
 
 .note-editor .note-dropdown-menu.dropdown-menu.show {
     display: block !important;
