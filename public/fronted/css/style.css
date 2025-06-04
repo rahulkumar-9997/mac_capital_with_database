@@ -516,3 +516,49 @@ input[type="password"]{
   padding: 50px 0px;
 }
 
+.dynamic_page_content div h3{
+  line-height: 22px;
+}
+.dynamic_page_content p, 
+.dynamic_page_content ul li p{
+  margin-bottom: 10px;
+}
+.dynamic_page_content h3 a{
+    display: block;
+    color: #000000;
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.dynamic_page_content ul {
+  list-style: none;
+}
+.dynamic_page_content ul li {
+  position: relative;
+  line-height: 27px;
+  margin-bottom: 5px;
+  padding-left: 25px;
+  text-align: justify;
+  font-size: 17px;
+}
+
+.dynamic_page_content ul li::before {
+  font-family: "fontawesome";
+  font-weight: 900;
+  font-size: 14px;
+  display: block;
+  vertical-align: middle;
+  position: absolute;
+  content: "\f054";
+  left: 0;
+  top: 0px;
+  color: #4282aa;
+}
+.dynamic_page_content .content_box_cn.style_one {
+  padding: 0px 0px 0px 3px;
+}
+
+
+

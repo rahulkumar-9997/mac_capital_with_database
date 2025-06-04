@@ -142,7 +142,7 @@
             @else
                 <ul class="menu-items-list" id="sortable-menu">
                     @foreach($menuItems as $item)
-                        @include('Backend.pages.menu-items.partials.item', ['item' => $item, 'menu' => $menu])
+                        @include('backend.pages.menu-items.partials.item', ['item' => $item, 'menu' => $menu])
                     @endforeach
                 </ul>
             @endif

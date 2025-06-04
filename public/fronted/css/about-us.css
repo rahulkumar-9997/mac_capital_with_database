@@ -1,262 +1,262 @@
-.team_card {
-    /* margin: 10px 30px 10px 30px; */
-    margin: 10px 10px 10px 10px;
-}
-.team_card a {
-    color: #4a4e56;
-    font-size: 16px;
-    font-weight: 400;
-    text-decoration: none;
-}
-.team-card-div {
-    text-align: center;
-    margin-bottom: 45px;
-}
-.management-team-card img {
-    border-radius: 115px;
-    margin: auto;
-    margin-bottom: 10px;
-    border: 3px solid #4282aa;
-}
-.border_line_pink img {
-    /* border-radius: 115px; */
-    /* margin: auto; */
-    /* margin-bottom: 10px; */
-    /* border: 3px solid #a4297a; */
-    outline: 0px solid #fff;
-    /* padding: 20px 20px; */
-    border: 3px solid transparent;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    border-radius: 50%;
-    width: 100%;
-    height: 100%;
-}
-
-.management-team-card p {
-    margin-bottom: 0px;
-}
-.text-magenta {
-    color: #4282aa;
-}
-.border_line_pink img:hover {
-    outline: 0px solid transparent;
-    padding: 5px 5px;
-    border: 3px solid #4282aa;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-}
-
-.opacity-animate3 {
-    animation: opt-animation3 1s;
-    -moz-animation-fill-mode: forwards;
-    -webkit-animation-fill-mode: forwards;
-    animation-fill-mode: forwards;
-  }
-  
-  @-webkit-keyframes opt-animation3 {
-    0% {
-      opacity: 0;
-      transform: scale(0.75);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
-  @-moz-keyframes opt-animation3 {
-    0% {
-      opacity: 0;
-      transform: scale(0.75);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
-  @-o-keyframes opt-animation3 {
-    0% {
-      opacity: 0;
-      transform: scale(0.75);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
-  @keyframes opt-animation3 {
-    0% {
-      opacity: 0;
-      transform: scale(0.75);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
-@media (min-width: 1200px) {
-    .modal-xl {
-        max-width: 1140px;
-    }
-}  
-#teamModal.modal{
-    z-index: 9999;
-}
-
-.about-us-top h2 {
-    font-size: 22px;
-    line-height: 30px;
-    font-weight: 700;
-    color: #011B30;
-    padding: 0px 0px 10px 0px;
-    font-family: "Spartan", sans-serif !important;
-}
-.about-us-top{
-    background: #f9f9f9;
-}
-.border-radius-img {
-    border-radius: 10px;
-}
-.vision-mission-card {
-    padding: 30px;
-    border-radius: 10px;
-}
-.bg-magenta {
-    background: linear-gradient(to bottom, #4282aa -18%, #021c31 127%);
-}
-.text-white {
-    --bs-text-opacity: 1;
-    color: rgba(255, 255, 255);
-}
-.about-back p{
-    font-size: 18px;
-    text-align: justify;
-}
-
-.vision-mission-card {
-    transition: all 0.3s ease-in-out;
-    padding: 20px; 
-    border-radius: 8px;
-}
-
-.vision-mission-card:hover {
-    background-color: #ff4d6d;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    transform: scale(1.02);
-}
-
-.vision-mission-card img {
-    transition: transform 0.3s ease-in-out;
-}
-
-.vision-mission-card:hover img {
-    transform: scale(1.1);
-}
-
-.vision-mission-card h2{
-    transition: color 0.3s ease-in-out;
-    font-size: 22px;
-    text-align: center;
-}
-.vision-mission-card p {
-    transition: color 0.3s ease-in-out;
-}
-.about-social-link{
-    margin-top: 10px;
-}
-.about-social-link a{
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    display: inline-block;
-    border-radius: 50px;
-    background: var(--primary-color-one);
-    color: #fff;
-    position: relative; /* For animations */
-    transition: transform 0.4s ease, color 0.3s ease;
-    animation: pulse 2s infinite; /* Continuous animation */
-}
-.about-social-link a:hover {
-    transform: scale(1.3) rotate(10deg); /* Scale and rotate on hover */
-    color: #ffffff; /* Instagram-themed hover color */
-}
-
-/* Continuous Animation */
-@keyframes pulse {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-/* Hover Animation for the Icon */
-.about-social-link a:hover .fa-instagram {
-    animation: bounce 0.5s ease; /* Bounce effect on hover */
-}
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-8px);
-    }
-    60% {
-        transform: translateY(-4px);
-    }
-}
-
-/* Glow Effect on Hover */
-.about-social-link a:hover::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    height: 100%;
-    background: #011B30; /* Glow color */
-    border-radius: 50%;
-    transform: translate(-50%, -50%) scale(0.8);
-    z-index: -1;
-    animation: glow 1s ease infinite;
-}
-.message-body .text-magenta{
-    color: #4a4e56;
-    text-align: justify;
-}
-
-
-@keyframes glow {
-    0%, 100% {
-        opacity: 0.6;
-    }
-    50% {
-        opacity: 1;
-    }
-}
-   
-/*about animation*/
-
-/*about animation*/
-@media (max-width: 768px) {
-    .about-us-top h2 {
-        font-size: 18px;
-        line-height: 26px;
-    }
-    .management-team-card p {
-        font-size: 16px!important;
-        line-height: 23px!important;
-    }
-    .team-card-div.team_card{
-        margin: 0px 0px 0px 0px;
-    }
-}
-
-
-
+.team_card {
+    /* margin: 10px 30px 10px 30px; */
+    margin: 10px 10px 10px 10px;
+}
+.team_card a {
+    color: #4a4e56;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.team-card-div {
+    text-align: center;
+    margin-bottom: 45px;
+}
+.management-team-card img {
+    border-radius: 115px;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 3px solid #4282aa;
+}
+.border_line_pink img {
+    /* border-radius: 115px; */
+    /* margin: auto; */
+    /* margin-bottom: 10px; */
+    /* border: 3px solid #a4297a; */
+    outline: 0px solid #fff;
+    /* padding: 20px 20px; */
+    border: 3px solid transparent;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+
+.management-team-card p {
+    margin-bottom: 0px;
+}
+.text-magenta {
+    color: #4282aa;
+}
+.border_line_pink img:hover {
+    outline: 0px solid transparent;
+    padding: 5px 5px;
+    border: 3px solid #4282aa;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.opacity-animate3 {
+    animation: opt-animation3 1s;
+    -moz-animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  @-webkit-keyframes opt-animation3 {
+    0% {
+      opacity: 0;
+      transform: scale(0.75);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  @-moz-keyframes opt-animation3 {
+    0% {
+      opacity: 0;
+      transform: scale(0.75);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  @-o-keyframes opt-animation3 {
+    0% {
+      opacity: 0;
+      transform: scale(0.75);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  @keyframes opt-animation3 {
+    0% {
+      opacity: 0;
+      transform: scale(0.75);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+@media (min-width: 1200px) {
+    .modal-xl {
+        max-width: 1140px;
+    }
+}  
+#teamModal.modal{
+    z-index: 9999;
+}
+
+.about-us-top h2 {
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #011B30;
+    padding: 0px 0px 10px 0px;
+    font-family: "Spartan", sans-serif !important;
+}
+.about-us-top{
+    background: #f9f9f9;
+}
+.border-radius-img {
+    border-radius: 10px;
+}
+.vision-mission-card {
+    padding: 30px;
+    border-radius: 10px;
+}
+.bg-magenta {
+    background: linear-gradient(to bottom, #4282aa -18%, #021c31 127%);
+}
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(255, 255, 255);
+}
+.about-back p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.vision-mission-card {
+    transition: all 0.3s ease-in-out;
+    padding: 20px; 
+    border-radius: 8px;
+}
+
+.vision-mission-card:hover {
+    background-color: #ff4d6d;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+.vision-mission-card img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.vision-mission-card:hover img {
+    transform: scale(1.1);
+}
+
+.vision-mission-card h2{
+    transition: color 0.3s ease-in-out;
+    font-size: 22px;
+    text-align: center;
+}
+.vision-mission-card p {
+    transition: color 0.3s ease-in-out;
+}
+.about-social-link{
+    margin-top: 10px;
+}
+.about-social-link a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50px;
+    background: var(--primary-color-one);
+    color: #fff;
+    position: relative; /* For animations */
+    transition: transform 0.4s ease, color 0.3s ease;
+    animation: pulse 2s infinite; /* Continuous animation */
+}
+.about-social-link a:hover {
+    transform: scale(1.3) rotate(10deg); /* Scale and rotate on hover */
+    color: #ffffff; /* Instagram-themed hover color */
+}
+
+/* Continuous Animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Hover Animation for the Icon */
+.about-social-link a:hover .fa-instagram {
+    animation: bounce 0.5s ease; /* Bounce effect on hover */
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-8px);
+    }
+    60% {
+        transform: translateY(-4px);
+    }
+}
+
+/* Glow Effect on Hover */
+.about-social-link a:hover::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 100%;
+    background: #011B30; /* Glow color */
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0.8);
+    z-index: -1;
+    animation: glow 1s ease infinite;
+}
+.message-body .text-magenta{
+    color: #4a4e56;
+    text-align: justify;
+}
+
+
+@keyframes glow {
+    0%, 100% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+   
+/*about animation*/
+
+/*about animation*/
+@media (max-width: 768px) {
+    .about-us-top h2 {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .management-team-card p {
+        font-size: 16px!important;
+        line-height: 23px!important;
+    }
+    .team-card-div.team_card{
+        margin: 0px 0px 0px 0px;
+    }
+}
+
+
+

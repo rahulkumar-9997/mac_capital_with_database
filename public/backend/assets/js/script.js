@@ -354,53 +354,55 @@ $(document).ready(function(){
 	}
 
 	// Summernote
+	$(document).on('click', '.note-btn-group', function(e) {
+		e.stopPropagation();
+		var $dropdown = $(this).find('.dropdown-menu');
+		$('.note-dropdown-menu').not($dropdown).removeClass('show');
+		$dropdown.toggleClass('show');
+	});
 
+	$(document).on('click', function(e) {
+		if (!$(e.target).closest('.note-btn-group').length) {
+			$('.note-dropdown-menu').removeClass('show');
+		}
+	});
 	if($('#summernote').length > 0) {
 		$('#summernote').summernote({
-		height: 500,                 // set editor height
-		minHeight: null,             // set minimum height of editor
-		maxHeight: null,             // set maximum height of editor
+		height: 500,  
+		minHeight: null, 
+		maxHeight: null,
 		focus: false,
 		
 		toolbar: [
 			['style', ['style']],
 			['font', ['bold', 'italic', 'underline', 'clear']],
+			['fontname', ['fontname']],
 			['para', ['ul', 'ol', 'paragraph']],
-			['insert', ['link', 'picture', 'video']],
-			['view', ['fullscreen', 'codeview']]
+			['height', ['height']],
+			['table', ['table']],
+			['insert', ['link', 'picture', 'video', 'hr']],
+			['view', ['fullscreen', 'codeview', 'help']]
 		],
 		 prettifyHtml: false,
         codeviewFilter: true,
         codeviewIframeFilter: true,
-        // Remove style attributes
         styleTags: ['p', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6'],
-        // Callback for paste event
         callbacks: {
             onPaste: function(e) {
-                // Get pasted HTML
                 var clipboardData = e.originalEvent.clipboardData || window.clipboardData;
                 var pastedData = clipboardData.getData('Text/html');
-                
                 if (pastedData) {
                     e.preventDefault();
-                    
-                    // Create temporary div to parse HTML
                     var tempDiv = document.createElement('div');
                     tempDiv.innerHTML = pastedData;
-                    
-                    // Remove all style attributes
                     var elementsWithStyle = tempDiv.querySelectorAll('[style]');
                     elementsWithStyle.forEach(function(el) {
                         el.removeAttribute('style');
                     });
-                    
-                    // Remove all class attributes
                     var elementsWithClass = tempDiv.querySelectorAll('[class]');
                     elementsWithClass.forEach(function(el) {
                         el.removeAttribute('class');
                     });
-                    
-                    // Insert cleaned content
                     document.execCommand('insertHTML', false, tempDiv.innerHTML);
                 }
             }

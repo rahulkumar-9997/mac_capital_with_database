@@ -43,7 +43,7 @@
                                     </div>
                                 @endif   
                                 <div class="pd_bottom_20"></div>
-                                <div class="why-funds">
+                                <div class="why-funds dynamic_page_content">
                                      {!! $page->content !!}
                                 </div>
                             </div>

@@ -66,9 +66,10 @@
                             <label class="form-label">Parent Page</label>
                             <select class="select" name="parent_id">
                                 <option value="">-- No Parent --</option>
-                                @foreach($parentPages as $parent)
-                                <option value="{{ $parent->id }}" {{ old('parent_id', $page->parent_id ?? '') == $parent->id ? 'selected' : '' }}>
-                                    {{ $parent->title }}
+                                @foreach($pages as $page_row)
+                                <option value="{{ $page_row->id }}"
+                                   {{ old('parent_id', $page->parent_id ?? '') == $page_row->id ? 'selected' : '' }}>
+                                    {{ $page_row->title }}
                                 </option>
                                 @endforeach
                             </select>
@@ -105,7 +106,7 @@
                                     name="show_in_sidebar"
                                     id="show_in_sidebar"
                                     value="1"
-                                   {{ old('show_in_sidebar', $page->show_in_sidebar ?? true) ? 'checked' : '' }}>
+                                    {{ old('show_in_sidebar', $page->show_in_sidebar ?? true) ? 'checked' : '' }}>
                                 <label class="form-check-label" for="is_active">Include in Sidebar</label>
                             </div>
                         </div>

@@ -32,7 +32,7 @@
     @if($item->children->isNotEmpty())
     <ul class="menu-item-children">
         @foreach($item->children as $child)
-            @include('Backend.pages.menu-items.partials.item', ['item' => $child, 'menu' => $menu])
+            @include('backend.pages.menu-items.partials.item', ['item' => $child, 'menu' => $menu])
         @endforeach
     </ul>
     @endif

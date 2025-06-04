@@ -91,8 +91,9 @@ class PageController extends Controller
 
     public function edit(Page $page)
     {
-        $parentPages = Page::whereNull('parent_id')->where('id', '!=', $page->id)->get();
-        return view('backend.pages.page-content.edit', compact('page', 'parentPages'));
+        $pages = Page::all();
+        $parentPages = Page::where('id', '!=', $page->id)->get();
+        return view('backend.pages.page-content.edit', compact('pages', 'parentPages', 'page'));
     }
 
     public function update(Request $request, Page $page)
