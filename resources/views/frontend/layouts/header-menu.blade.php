@@ -74,35 +74,12 @@
                                             <span>Home</span>
                                         </a>
                                     </li>
-                                    <!-- <li class="menu-item  nav-item">
+                                    <li class="menu-item  nav-item">
                                         <a href="{{route('about-us')}}" class="dropdown-item nav-link">
                                             <span>About Us</span>
                                         </a>
-                                    </li> -->
-                                   @if($menu && $menu->items->count())
-                                        @foreach($menu->items as $item)
-                                            <li class="menu-item {{ $item->children->count() ? 'menu-item-has-children dropdown' : '' }} nav-item">
-                                                <a href="{{ $item->url }}" class="{{ $item->children->count() ? 'dropdown-toggle' : 'dropdown-item' }} nav-link">
-                                                    <span>{{ $item->title }}</span>
-                                                </a>
-
-                                                @if($item->children->count())
-                                                    <ul class="dropdown-menu">
-                                                        @foreach($item->children as $child)
-                                                            <li class="menu-item nav-item">
-                                                                <a href="{{ $child->url }}" class="dropdown-item nav-link">
-                                                                    <span>{{ $child->title }}</span>
-                                                                </a>
-                                                            </li>
-                                                        @endforeach
-                                                    </ul>
-                                                @endif
-                                            </li>
-                                        @endforeach
-                                    @endif
-
-
-                                    <!--<li class="menu-item menu-item-has-children dropdown nav-item">
+                                    </li>
+                                    <li class="menu-item menu-item-has-children dropdown nav-item">
                                         <a href="{{ route('mutual-funds') }}" class="dropdown-toggle nav-link">
                                             <span>Mutual Funds</span>
                                         </a>
@@ -129,7 +106,47 @@
                                             </li>
                                         </ul>
                                     </li>
-                                    
+
+
+                                    <!-- <li
+                              class="menu-item menu-item-has-children dropdown nav-item">
+                              <a href="{{route('corporate-advisory')}}" class="dropdown-toggle nav-link">
+                              <span>SME IPOs</span>
+                              </a>
+                              <ul class="dropdown-menu">
+                                 <li class="menu-item nav-item">
+                                    <a href="{{route('mergers')}}" class="dropdown-item nav-link">
+                                    <span>Mergers and Aquisitions</span>
+                                    </a>
+                                 </li>
+                                 <li class="menu-item nav-item">
+                                    <a href="{{route('divestitures')}}" class="dropdown-item nav-link">
+                                    <span>Divestitures</span>
+                                    </a>
+                                 </li>
+                                 <li class="menu-item  nav-item">
+                                    <a href="{{route('capital-structuring')}}" class="dropdown-item nav-link">
+                                    <span>Capital Structuring Advisory</span>
+                                    </a>
+                                 </li>
+                                 <li class="menu-item  nav-item">
+                                    <a href="{{route('indications-of-value')}}" class="dropdown-item nav-link">
+                                    <span>Indications of Value</span>
+                                    </a>
+                                 </li>
+                                 <li class="menu-item  nav-item">
+                                    <a href="{{route('project-structured-finance')}}" class="dropdown-item nav-link">
+                                    <span>Project & Structured Finance</span>
+                                    </a>
+                                 </li>
+                                 <li class="menu-item  nav-item">
+                                    <a href="{{route('transaction-support')}}" class="dropdown-item nav-link">
+                                    <span>Transaction Support Services </span>
+                                    </a>
+                                 </li>
+                                 
+                              </ul>
+                           </li> -->
                                     <li class="menu-item  nav-item">
                                         <a href="{{route('sme-ipos')}}" class="dropdown-item nav-link">
                                             <span>SME IPOs</span>
@@ -177,7 +194,7 @@
                                             </li>
                                             
                                         </ul>
-                                    </li>-->
+                                    </li>
 
                                     <li class="menu-item  nav-item d-md-block d-lg-none">
                                         <a href="{{route('contact-us')}}" class="dropdown-item nav-link">

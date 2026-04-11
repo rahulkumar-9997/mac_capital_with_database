@@ -1,869 +1,869 @@
-.about_section .title_all_box.style_one .title_sections h1{
-    font-size: 22px;
-    line-height: 32px;
-}
-
-.about-us-image {
-    float: right;
-    padding-right: 0px;
-}
-/* .board_head{
-    padding-top: 30px;
-} */
-
-.about_section .title_all_box.style_one .title_sections h2{
-    font-size: 24px;
-    line-height: 26px;
-}
-.title_all_box.style_one .title_sections h3.h3, 
-.title_all_box.style_one .title_sections h4.h4{
-    font-size: 18px;
-    line-height: 20px;
-    padding: 0px 0px 0px 0px;
-   
-}
-.creote_widget_service_list ul.service_list_box li a.active{
-    color:#4282aa;
-}
-.ulli{
-    margin-left: 30px;
-}
-.type-service .title_all_box.style_one .title_sections p{
-    padding: 0px 0px 0px 0px;
-    text-align: justify;
-    font-size: 17px;
-}
-.partnership .title_all_box.style_three .title_sections h5{
-    position: relative;
-    font-size: 18px;
-    line-height: 20px;
-    font-weight: 700;
-    color: #078586;
-    font-family: "Spartan", sans-serif!important;
-    margin-bottom: 10px;
-    display: inline-block;
-    /* padding-left: 38px; */
-    margin-bottom: 7px;
-}
-.text-justify{
-    text-align: justify;
-}
-.con_content{
-    padding-top: 5px;
-}
-.con_content a{
-    color:#4a4e56;
-}
-.location_map{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    margin-top: 20px;
-    
-}
-.location_link{
-    color: #4282AA;
-    float: right;
-}
-.director_contact{
-    color: #4282AA;
-    font-size: 17px;
-    line-height: 25px;
-    text-decoration: underline;
-    padding-bottom: 10px;
-}
-.slider-overlay {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #00000038;
-    z-index: 1;
-}
-
-.toast {
-    /* visibility: hidden; */
-    min-width: 250px;
-    margin-left: -125px;
-    background-color: #057a07de;
-    color: #fff;
-    text-align: center;
-    border-radius: 8px;
-    padding: 16px;
-    position: fixed;
-    z-index: 1;
-    left: 50%;
-    bottom: 30px;
-    font-size: 17px;
-    opacity: 0;
-    transition: opacity 0.6s, visibility 0s 0.6s;
-    box-shadow: 2px 1px 15px rgb(0 0 0 / 25%);
-}
-
-.toast.show {
-    opacity: 1;
-}
-.toast p{
-    margin-bottom: 0px;
-    line-height: 23px;
-}
-.toast.hidden {
-    opacity: 0;
-    display: none;
-}
-/*code for graph*/
-.chart-container ul li{
-    list-style-type: none;
-}
-.inputFldBox {
-    position: relative;
- }
- 
- .inputFld {
-    padding-left: 25px; /* Space for the icon */
- }
- 
- .inputIcon {
-    position: absolute;
-    left: 8px; /* Position the icon inside the input */
-    top: 50%;
-    transform: translateY(-50%); /* Vertically center the icon */
-    font-size: 16px; /* Adjust icon size */
- }
- .chart-container input, input[type=text]{
-    padding: 0px 15px 0px 24px;
- }
- .input-chart{
-    margin-top: 10px;
- }
- .investment-summary {
-    max-width: 300px;  /* Adjust width as needed */
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.investment-item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-    font-size: 16px;
-    font-weight: 500;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.investment-item strong {
-    color: #333;
-}
-
-.investment-item span {
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.investment-summary .investment-item:last-child {
-    margin-bottom: 0;
-}
-/*code for graph*/
-.banner-section-icon .service_box.style_one .service_content{
-    padding: 20px 10px;
-}
-
-.banner-section-icon .service_box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: all 0.4s ease;
-    height: 100%;
-}
-
-.banner-section-icon .service_box:hover {
-    transform: translateY(-10px) scale(1.05);
-    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
-}
-
-.banner-section-icon .service_box::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, #011b30 0%, #6a9bcf 100%);
-    opacity: 0;
-    z-index: 0;
-    transition: opacity 0.4s ease;
-    border-radius: 10px;
-}
-
-.banner-section-icon .service_box:hover::before {
-    opacity: 0.6;
-}
-
-.banner-section-icon .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 20px;
-    position: relative;
-    z-index: 1;
-}
-
-.banner-section-icon .image img {
-    max-width: 45%;
-    height: auto;
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
-}
-
-.banner-section-icon .service_box:hover .image img {
-    transform: rotate(20deg) scale(1);
-}
-
-.banner-section-icon .service_content {
-    position: relative;
-    z-index: 1;
-    padding: 20px;
-    text-align: center;
-}
-
-.banner-section-icon .service_content h2 a {
-    font-size: 20px;
-    font-weight: bold;
-    color: #4282aa;
-    transition: color 0.3s ease;
-}
-
-.banner-section-icon .service_box:hover h2 a {
-    color: #fff;
-}
-
-
-
-.banner-section-icon .service_box:hover .read_more {
-    color: #fff; /* Color changes on hover */
-    background: none; /* Ensure background stays none */
-    border: none; /* Ensure no border */
-}
-
-/* .eaight-style {
-    background: url(https://html.dreamitsolution.net/consen-demo/assets/images/resource/blog-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 94px 0 70px;
-} */
-
-.why-funds p,
-.why-choose-mutual p,
-.benefits-of-mutual p,
-.why-choose-retirement p,
-.benefits-of-retirement p,
-.type-of-retirement p,
-.who-should-invest p,
-.why-choose-equity p
-{
-    margin-bottom: 15px;
-}
-
-.type-service .title_all_box.style_one .title_sections .type-of-mutual-fund  p{
-    text-align: left;
-}
-.type-of-mutual-fund .content_box_cn.style_one{
-    padding: 15px;
-    background: #fff;
-    border-radius: 0px 0px 30px 0px;
-    box-shadow:0px 0px 40px 0px rgba(0, 0, 0, .09);
-    height: 100%;
-}
-.type-of-mutual-fund .content_box_cn.style_one .txt_content::before,
-.type-of-mutual-fund .content_box_cn.style_one .txt_content::after{
-    display: none;
-}
-.investment-option {
-    margin-bottom: 15px;
-    border-bottom: 1px solid #e4e7ee;
-    padding-bottom: 5px;
-}
-.investment-option ul{
-    margin-left: 10px;
-}
-.title_all_box.style_one .title_sections .why-choose-mutual h3,
-.title_all_box.style_one .title_sections .types-of-mutual-funds h3,
-.title_all_box.style_one .title_sections .work-it h3,
-.title_all_box.style_one .title_sections .who-should-invest h3,
-.title_all_box.style_one .title_sections .benefits-of-mutual h3,
-.title_all_box.style_one .title_sections .how-do-they-work h3,
-.title_all_box.style_one .title_sections .why-choose-equity h3,
-.title_all_box.style_one .title_sections .why-choose-debt-funds h3,
-.title_all_box.style_one .title_sections .why-funds h3,
-.title_all_box.style_one .title_sections .why-invest-mutual-fund h3
-
-{
-    font-size: 18px;
-    line-height: 30px;
-}
-
-.col-xl-20 {
-    flex: 0 0 auto;
-    width: 20%;
-}
-/*sme ipo css*/
-/* General Styles */
-.seo_fact_area {
-    position: relative;
-    padding: 40px 0;
-    background: #f9f9f9;
-}
-
-.home_bubble {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    top: 0;
-    left: 0;
-    z-index: 0;
-}
-
-.home_bubble .bubble,
-.home_bubble .triangle {
-    position: absolute;
-    z-index: 1;
-}
-
-.bubble {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    animation: float 6s ease-in-out infinite;
-}
-
-
-.b_one { 
-    top: 10%; left: 20%; 
-    background: #4282aa;
-}
-.b_three {
-     top: 30%; left: 70%; 
-     background: #7d95fa;
-}
-.b_four { 
-    top: 60%; left: 10%;
-    background: #d27dfa; 
-}
-.b_six {
-     top: 80%; left: 80%;
-     background: #f1d53b; 
- }
-
-.triangle {
-    width: 60px;
-    height: 60px;
-}
-
-.triangle img {
-    width: 100%;
-    animation: rotate 8s linear infinite;
-}
-
-
-
-/* Animations */
-@keyframes float {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-20px); }
-}
-
-@keyframes rotate {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-.symbols-pulse {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    overflow: hidden;
-}
-
-.pulse-1, .pulse-2, .pulse-3, .pulse-4, .pulse-x {
-    position: absolute;
-    border-radius: 50%;
-    animation: pulse 3s infinite ease-in-out;
-}
-
-.pulse-1 {
-    width: 100px;
-    height: 100px;
-    background-color: rgba(0, 123, 255, 0.2);
-    top: 10%;
-    left: 20%;
-    animation-delay: 0.5s;
-}
-
-.pulse-2 {
-    width: 150px;
-    height: 150px;
-    background-color: rgba(40, 167, 69, 0.2);
-    top: 30%;
-    left: 70%;
-    animation-delay: 1s;
-}
-
-.pulse-3 {
-    width: 200px;
-    height: 200px;
-    background-color: rgba(220, 53, 69, 0.2);
-    top: 60%;
-    right: 10%;
-    animation-delay: 1.5s;
-}
-
-.pulse-4 {
-    width: 120px;
-    height: 120px;
-    background-color: rgba(255, 193, 7, 0.2);
-    top: 80%;
-    left: 3%;
-    animation-delay: 2s;
-}
-
-.pulse-x {
-    width: 180px;
-    height: 180px;
-    background-color: rgba(23, 162, 184, 0.2);
-    top: 50%;
-    left: 40%;
-    animation-delay: 2.5s;
-}
-
-@keyframes pulse {
-    0% {
-        transform: scale(0.8);
-        opacity: 0.5;
-    }
-    50% {
-        transform: scale(1.2);
-        opacity: 0.3;
-    }
-    100% {
-        transform: scale(1.5);
-        opacity: 0;
-    }
-}
-.sme-ipo .margin_extra_image{
-    margin: -252px -178px -252px 0px;
-}
-
-.calculator-home{
-    background-image: url('../mac-image/feedback-bg.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-/* .blog_feature_image::before {
-    position: absolute;
-    content: '';
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: url(https://www.easternfin.com/assets/images/oval-bg-animation.svg) center no-repeat;
-    background-size: contain;
-    z-index: -1;
-    -webkit-transform: rotate(180deg);
-    transform: rotate(180deg);
-} */
-
-/*sme ipo css*/
-.enquiry-now{
-    text-align: right;
-}
-/*what app button*/
-.call-now {
-    position: fixed;
-    top: 87%;
-    right: 15px;
-    z-index: 99999;
-    margin-right: 15px;
-    padding: 10px 15px 10px 15px;
-    background: rgb(37 211 102);
-    border-radius: 50px;
-    border: solid white;
-}
-.shake {
-    animation: shake-animation 2.5s;
-    animation-iteration-count: infinite;
-}
-.call-now-text{
-    color: #fff;
-    font-size: 20px; 
-    text-decoration:none;
-    font-family: 'Montserrat Alternates', sans-serif !important;
-}
-a.call-now-text:hover{
-    text-decoration:none;
-    color: #fff;
-}
-
-a.call-now-text:focus{
-    text-decoration:none;
-    color: #fff;
-}
-.modal-page-title h3{
-    font-size: 16px;
-    text-align: center;
-    margin-bottom: 5px;
-}
-.bonds-section .title_all_box.style_six .title_sections .title{
-    font-size: 22px;
-    line-height: 30px;
-    margin-bottom: 4px;
-    /* color: #4a4e56; */
-}
-.looking_to_invest .pricing_plan_box {
-    position: relative;
-    z-index: 2;
-}
-.looking_to_invest .pricing_plan_box .experience {
-    position: absolute;
-    padding: 10px;
-    top: 0px;
-    left: -15px;
-    background: #4282aa;
-}
-.looking_to_invest .upper_content p{
-    margin-bottom: 5px;
-}
-.looking_to_invest .pricing_plan_box .experience::before {
-    position: absolute;
-    content: "";
-    border-left: 50px solid transparent;
-    border-top: 40px solid transparent;
-    border-right: 50px solid var(--primary-color-one);
-    border-bottom: 50px solid transparent;
-    left: -50px;
-    z-index: -1;
-    opacity: 0.9;
-}
-.looking_to_invest .pricing_plan_box .experience .experience_inner h2 {
-    font-size: 18px;
-    line-height: 30px;
-    font-weight: 700;
-    color: #fff;
-}
-.basic_bond_terminology .test-parent{
-    height: 200px;
-    display: flex; 
-}
-/*EKYC CSS*/
-.ekyc-content .single_banner.style_one .slider_content h1 {
-    font-size: 25px;
-    line-height: 37px;
-    color: #011B30;
-    font-weight: 700;
-}
-.ekyc-content .single_banner.style_one .slider_content h6 {
-    background: #011b30;
-    color: #ffffff;
-}
-.ekyc-content .text_box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.ef_banner_strip_inner_each--icon {
-    background: #4282aa;
-    min-width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    display: -webkit-inline-box;
-    display: -ms-inline-flexbox;
-    display: inline-flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    margin-right: 12px;
-    color: #fff;
-    font-family: Poppins;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 47px;
-}
-.ekyc-content .icon_box_all.style_nine .icon_content h2 a{
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 28px;
-}
-.document-section .title_all_box.style_five .title_sections h2{
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 28px;
-}
-.document-section .icon_box_all.style_one .icon_content.icon_centers .icon {
-    margin: unset;
-}
-
-.document-section .icon_box_all.style_one {
-    
-    padding: 15px 15px 15px;
-    border-radius: 10px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-.social-link-footer{
-    padding-bottom: 25px;
-}
-
-/* .stick_bg {
-    background: url(../mac-image/contact-us/stick.jpg) top center no-repeat;
-    background-size: contain;
-} */
-@keyframes shake-animation {
-   10%, 90% {
-    transform: translate3d(0, -1px, 0);
-  }
-  
-  20%, 80% {
-    transform: translate3d(0, 2px, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(0, -4px, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(0, 4px, 0);
-  }
-}
-
-/*what app button*/
-@media (max-width: 1200px) {
-    .header, .default_sickty_heaad{
-        padding: 5px 0px 5px;
-    }
-    .header .header_logo_box img{
-        width: 85%;
-    }
-    .fixed-header .header .header_logo_box img {
-        width: 80%;
-    }
-    .fixed-header .header_logo_box{
-        width: 100%;
-    }
-    .fixed-header .get_sticky_header{
-        padding: 5px 0px;
-    }
-    .slider.style_four .slide-item-content .content_right,
-    .slider.style_four .slide-item-content .content_left
-    {
-        text-align: center !important;
-    }
-    .mobile_pd_top_30{
-        padding-top: 30px!important;
-    }
-    
-}
-
-@media (max-width: 768px) {
-    .banner_section_hm_16 .inner_section .team_intro_box .team_intro_inner .team_intro_start .left_content{
-        padding: 24px 16px 14px;
-    }
-    .banner-section-icon .service_box.style_one .service_content{
-        padding: 10px;
-    }
-    .banner-section-icon .service_box{
-        margin-top: 30px;
-    }
-    .banner-section-icon .col-6{
-        padding-right: 12px;
-        padding-left: 12px;
-    }
-    .banner-section-icon .image img {
-        max-width: 20%;
-    }
-    .service_box.style_one .service_content .image {
-        margin-bottom: 10px;
-    }
-    .service_box.style_one .service_content .content_inner h2 a{
-        margin-bottom: 5px;
-    }
-    .team_intro_box .team_intro_inner .team_intro_start .title{
-        margin-bottom: 10px;
-    }
-    .mobile-log-header{
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-    .mobile-log-header .mo-logo{
-        width: 60%;
-    }
-    .crt_mobile_menu .menu-box .menu-outer ul.navbar_nav{
-        padding-top: 20px;
-    }
-    .eaight-style .col-6{
-        padding-right: 5px;
-        padding-left: 5px;
-    }
-    .pd_zero .icon_box_all.style_five .icon_content small {
-        font-size: 22px;
-        top: 3px;
-    }
-    .pd_zero .icon_box_all.style_five .icon_content h2 {
-        font-size: 16px;
-    }
-    .icon_box_all.style_five .icon_content .icon {
-        margin-bottom: 10px;
-    }
-    .icon_box_all.style_five .icon_content .icon img {
-        width: 41px;
-    }
-    .banner-section-icon .service_box.style_one .service_content .content_inner h2 a {
-        font-size: 16px;
-        line-height: 18px;
-    }
-    .team_intro_box .team_intro_inner .team_intro_start .title h1 {
-        font-size: 20px;
-        line-height: 30px;
-    }
-    .team_intro_box .team_intro_inner .team_intro_start .quotes h5 {
-        font-size: 17px;
-        line-height: 25px;
-    }
-    .banner-section-icon .card-home p{
-        margin-bottom: 5px;
-    }
-    .pd_zero .col-xl-20 {
-        flex: 0 0 auto;
-        width: 50%;
-    }
-    .mobile-about .mobile-col-12 {
-        display: flex; /* Enables flexbox layout */
-        flex-direction: column; /* Stack children vertically by default */
-    }
-    
-    .about-us-image {
-        order: -1; /* Moves the image div to the top */
-    } 
-    .investment-summary .investment-item{
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .investment-summary{
-        max-width: 100%;
-        padding: 10px;
-    }
-    .sme-content .seo_fact_area{
-        padding: 30px 0;
-    }
-    .sme-content .process_box.style_three .process_box_outer_three.right {
-        text-align: left;
-    }
-    .sme-content .mobile-pa{
-        padding-top: 25px;
-    }
-    .process_box.style_three .process_box_outer_three h2 a {
-        font-size: 16px;
-        line-height: 20px;
-    }
-    .sme-content .icon_box_all.style_seven .icon_content .icon span {
-        font-size: 25px;
-        line-height: 30px;
-    }
-    .sme-content .icon_box_all.style_seven .icon_content .icon {
-        min-width: 35px;
-    }
-    .sme-content .icon_box_all.style_seven .icon_content .text_box h2 a {
-        font-size: 16px;
-        line-height: 38px;
-    }
-    .about_company_inner{
-        display: none;
-    }
-    .image_boxes.style_two .authour_quotes h6 {
-        font-size: 16px;
-    }
-    .contact_box_inner .icon_bx{
-        display: none;
-    }
-    .contact_box_content.style_one .contact_box_inner.icon_yes .contnet {
-        margin-left: 0px;
-    }
-    /*bond page*/
-    .icon_box_all.style_eight .icon_content .icon {
-        min-width: 32px;
-        padding-top: 5px;
-    }
-    .icon_box_all.style_eight .icon_content .text_box h2 a {
-        font-size: 16px;
-    }
-    .bond-page .icon_box_all.style_eight{
-        height: 100%;
-    }
-    .bond-page .title_all_box.style_six .title_sections h5{
-        font-size: 18px;
-        line-height: 28px;
-    }
-    .bonds-section .title_all_box.style_six .title_sections .title{
-        font-size: 18px;
-        line-height: 27px;
-    }
-    .fd-table table th,  .fd-table table td{
-        font-size: 14px;
-    }
-    .company-title h3{
-        font-size: 18px;
-    }
-    .pd_zero.fixed-section-top .col-xl-20{
-        width: 100%;
-    }
-    .fixed-section-top .fd-section {
-        border: 1.5px solid #204786;
-        border-radius: 8px;
-        background-color: #ECF9FF;
-    }
-    
-}
-
-.banner-block {
-    /* margin: 0 0 20px; */
-    position: relative;
-    z-index: 9;
-}
-.home-page .banner-block:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* background: linear-gradient(to right, #001a66, #001a66 23%, transparent); */
-    background: linear-gradient(to bottom, #ffffff00 -18%, #4282aa 75%);
-    pointer-events: none;
-    z-index: -1;
+.about_section .title_all_box.style_one .title_sections h1{
+    font-size: 22px;
+    line-height: 32px;
+}
+
+.about-us-image {
+    float: right;
+    padding-right: 0px;
+}
+/* .board_head{
+    padding-top: 30px;
+} */
+
+.about_section .title_all_box.style_one .title_sections h2{
+    font-size: 24px;
+    line-height: 26px;
+}
+.title_all_box.style_one .title_sections h3.h3, 
+.title_all_box.style_one .title_sections h4.h4{
+    font-size: 18px;
+    line-height: 20px;
+    padding: 0px 0px 0px 0px;
+   
+}
+.creote_widget_service_list ul.service_list_box li a.active{
+    color:#4282aa;
+}
+.ulli{
+    margin-left: 30px;
+}
+.type-service .title_all_box.style_one .title_sections p{
+    padding: 0px 0px 0px 0px;
+    text-align: justify;
+    font-size: 17px;
+}
+.partnership .title_all_box.style_three .title_sections h5{
+    position: relative;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #078586;
+    font-family: "Spartan", sans-serif!important;
+    margin-bottom: 10px;
+    display: inline-block;
+    /* padding-left: 38px; */
+    margin-bottom: 7px;
+}
+.text-justify{
+    text-align: justify;
+}
+.con_content{
+    padding-top: 5px;
+}
+.con_content a{
+    color:#4a4e56;
+}
+.location_map{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 20px;
+    
+}
+.location_link{
+    color: #4282AA;
+    float: right;
+}
+.director_contact{
+    color: #4282AA;
+    font-size: 17px;
+    line-height: 25px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+.slider-overlay {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000038;
+    z-index: 1;
+}
+
+.toast {
+    /* visibility: hidden; */
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #057a07de;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+    opacity: 0;
+    transition: opacity 0.6s, visibility 0s 0.6s;
+    box-shadow: 2px 1px 15px rgb(0 0 0 / 25%);
+}
+
+.toast.show {
+    opacity: 1;
+}
+.toast p{
+    margin-bottom: 0px;
+    line-height: 23px;
+}
+.toast.hidden {
+    opacity: 0;
+    display: none;
+}
+/*code for graph*/
+.chart-container ul li{
+    list-style-type: none;
+}
+.inputFldBox {
+    position: relative;
+ }
+ 
+ .inputFld {
+    padding-left: 25px; /* Space for the icon */
+ }
+ 
+ .inputIcon {
+    position: absolute;
+    left: 8px; /* Position the icon inside the input */
+    top: 50%;
+    transform: translateY(-50%); /* Vertically center the icon */
+    font-size: 16px; /* Adjust icon size */
+ }
+ .chart-container input, input[type=text]{
+    padding: 0px 15px 0px 24px;
+ }
+ .input-chart{
+    margin-top: 10px;
+ }
+ .investment-summary {
+    max-width: 300px;  /* Adjust width as needed */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.investment-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.investment-item strong {
+    color: #333;
+}
+
+.investment-item span {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.investment-summary .investment-item:last-child {
+    margin-bottom: 0;
+}
+/*code for graph*/
+.banner-section-icon .service_box.style_one .service_content{
+    padding: 20px 10px;
+}
+
+.banner-section-icon .service_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s ease;
+    height: 100%;
+}
+
+.banner-section-icon .service_box:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+}
+
+.banner-section-icon .service_box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #011b30 0%, #6a9bcf 100%);
+    opacity: 0;
+    z-index: 0;
+    transition: opacity 0.4s ease;
+    border-radius: 10px;
+}
+
+.banner-section-icon .service_box:hover::before {
+    opacity: 0.6;
+}
+
+.banner-section-icon .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-section-icon .image img {
+    max-width: 45%;
+    height: auto;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.banner-section-icon .service_box:hover .image img {
+    transform: rotate(20deg) scale(1);
+}
+
+.banner-section-icon .service_content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-section-icon .service_content h2 a {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4282aa;
+    transition: color 0.3s ease;
+}
+
+.banner-section-icon .service_box:hover h2 a {
+    color: #fff;
+}
+
+
+
+.banner-section-icon .service_box:hover .read_more {
+    color: #fff; /* Color changes on hover */
+    background: none; /* Ensure background stays none */
+    border: none; /* Ensure no border */
+}
+
+/* .eaight-style {
+    background: url(https://html.dreamitsolution.net/consen-demo/assets/images/resource/blog-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 94px 0 70px;
+} */
+
+.why-funds p,
+.why-choose-mutual p,
+.benefits-of-mutual p,
+.why-choose-retirement p,
+.benefits-of-retirement p,
+.type-of-retirement p,
+.who-should-invest p,
+.why-choose-equity p
+{
+    margin-bottom: 15px;
+}
+
+.type-service .title_all_box.style_one .title_sections .type-of-mutual-fund  p{
+    text-align: left;
+}
+.type-of-mutual-fund .content_box_cn.style_one{
+    padding: 15px;
+    background: #fff;
+    border-radius: 0px 0px 30px 0px;
+    box-shadow:0px 0px 40px 0px rgba(0, 0, 0, .09);
+    height: 100%;
+}
+.type-of-mutual-fund .content_box_cn.style_one .txt_content::before,
+.type-of-mutual-fund .content_box_cn.style_one .txt_content::after{
+    display: none;
+}
+.investment-option {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e4e7ee;
+    padding-bottom: 5px;
+}
+.investment-option ul{
+    margin-left: 10px;
+}
+.title_all_box.style_one .title_sections .why-choose-mutual h3,
+.title_all_box.style_one .title_sections .types-of-mutual-funds h3,
+.title_all_box.style_one .title_sections .work-it h3,
+.title_all_box.style_one .title_sections .who-should-invest h3,
+.title_all_box.style_one .title_sections .benefits-of-mutual h3,
+.title_all_box.style_one .title_sections .how-do-they-work h3,
+.title_all_box.style_one .title_sections .why-choose-equity h3,
+.title_all_box.style_one .title_sections .why-choose-debt-funds h3,
+.title_all_box.style_one .title_sections .why-funds h3,
+.title_all_box.style_one .title_sections .why-invest-mutual-fund h3
+
+{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.col-xl-20 {
+    flex: 0 0 auto;
+    width: 20%;
+}
+/*sme ipo css*/
+/* General Styles */
+.seo_fact_area {
+    position: relative;
+    padding: 40px 0;
+    background: #f9f9f9;
+}
+
+.home_bubble {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.home_bubble .bubble,
+.home_bubble .triangle {
+    position: absolute;
+    z-index: 1;
+}
+
+.bubble {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: float 6s ease-in-out infinite;
+}
+
+
+.b_one { 
+    top: 10%; left: 20%; 
+    background: #4282aa;
+}
+.b_three {
+     top: 30%; left: 70%; 
+     background: #7d95fa;
+}
+.b_four { 
+    top: 60%; left: 10%;
+    background: #d27dfa; 
+}
+.b_six {
+     top: 80%; left: 80%;
+     background: #f1d53b; 
+ }
+
+.triangle {
+    width: 60px;
+    height: 60px;
+}
+
+.triangle img {
+    width: 100%;
+    animation: rotate 8s linear infinite;
+}
+
+
+
+/* Animations */
+@keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.symbols-pulse {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.pulse-1, .pulse-2, .pulse-3, .pulse-4, .pulse-x {
+    position: absolute;
+    border-radius: 50%;
+    animation: pulse 3s infinite ease-in-out;
+}
+
+.pulse-1 {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(0, 123, 255, 0.2);
+    top: 10%;
+    left: 20%;
+    animation-delay: 0.5s;
+}
+
+.pulse-2 {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(40, 167, 69, 0.2);
+    top: 30%;
+    left: 70%;
+    animation-delay: 1s;
+}
+
+.pulse-3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(220, 53, 69, 0.2);
+    top: 60%;
+    right: 10%;
+    animation-delay: 1.5s;
+}
+
+.pulse-4 {
+    width: 120px;
+    height: 120px;
+    background-color: rgba(255, 193, 7, 0.2);
+    top: 80%;
+    left: 3%;
+    animation-delay: 2s;
+}
+
+.pulse-x {
+    width: 180px;
+    height: 180px;
+    background-color: rgba(23, 162, 184, 0.2);
+    top: 50%;
+    left: 40%;
+    animation-delay: 2.5s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.3;
+    }
+    100% {
+        transform: scale(1.5);
+        opacity: 0;
+    }
+}
+.sme-ipo .margin_extra_image{
+    margin: -252px -178px -252px 0px;
+}
+
+.calculator-home{
+    background-image: url('../mac-image/feedback-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .blog_feature_image::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://www.easternfin.com/assets/images/oval-bg-animation.svg) center no-repeat;
+    background-size: contain;
+    z-index: -1;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+} */
+
+/*sme ipo css*/
+.enquiry-now{
+    text-align: right;
+}
+/*what app button*/
+.call-now {
+    position: fixed;
+    top: 87%;
+    right: 15px;
+    z-index: 99999;
+    margin-right: 15px;
+    padding: 10px 15px 10px 15px;
+    background: rgb(37 211 102);
+    border-radius: 50px;
+    border: solid white;
+}
+.shake {
+    animation: shake-animation 2.5s;
+    animation-iteration-count: infinite;
+}
+.call-now-text{
+    color: #fff;
+    font-size: 20px; 
+    text-decoration:none;
+    font-family: 'Montserrat Alternates', sans-serif !important;
+}
+a.call-now-text:hover{
+    text-decoration:none;
+    color: #fff;
+}
+
+a.call-now-text:focus{
+    text-decoration:none;
+    color: #fff;
+}
+.modal-page-title h3{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.bonds-section .title_all_box.style_six .title_sections .title{
+    font-size: 22px;
+    line-height: 30px;
+    margin-bottom: 4px;
+    /* color: #4a4e56; */
+}
+.looking_to_invest .pricing_plan_box {
+    position: relative;
+    z-index: 2;
+}
+.looking_to_invest .pricing_plan_box .experience {
+    position: absolute;
+    padding: 10px;
+    top: 0px;
+    left: -15px;
+    background: #4282aa;
+}
+.looking_to_invest .upper_content p{
+    margin-bottom: 5px;
+}
+.looking_to_invest .pricing_plan_box .experience::before {
+    position: absolute;
+    content: "";
+    border-left: 50px solid transparent;
+    border-top: 40px solid transparent;
+    border-right: 50px solid var(--primary-color-one);
+    border-bottom: 50px solid transparent;
+    left: -50px;
+    z-index: -1;
+    opacity: 0.9;
+}
+.looking_to_invest .pricing_plan_box .experience .experience_inner h2 {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.basic_bond_terminology .test-parent{
+    height: 200px;
+    display: flex; 
+}
+/*EKYC CSS*/
+.ekyc-content .single_banner.style_one .slider_content h1 {
+    font-size: 25px;
+    line-height: 37px;
+    color: #011B30;
+    font-weight: 700;
+}
+.ekyc-content .single_banner.style_one .slider_content h6 {
+    background: #011b30;
+    color: #ffffff;
+}
+.ekyc-content .text_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.ef_banner_strip_inner_each--icon {
+    background: #4282aa;
+    min-width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-right: 12px;
+    color: #fff;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 47px;
+}
+.ekyc-content .icon_box_all.style_nine .icon_content h2 a{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+.document-section .title_all_box.style_five .title_sections h2{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+.document-section .icon_box_all.style_one .icon_content.icon_centers .icon {
+    margin: unset;
+}
+
+.document-section .icon_box_all.style_one {
+    
+    padding: 15px 15px 15px;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.social-link-footer{
+    padding-bottom: 25px;
+}
+
+/* .stick_bg {
+    background: url(../mac-image/contact-us/stick.jpg) top center no-repeat;
+    background-size: contain;
+} */
+@keyframes shake-animation {
+   10%, 90% {
+    transform: translate3d(0, -1px, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(0, 2px, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(0, -4px, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(0, 4px, 0);
+  }
+}
+
+/*what app button*/
+@media (max-width: 1200px) {
+    .header, .default_sickty_heaad{
+        padding: 5px 0px 5px;
+    }
+    .header .header_logo_box img{
+        width: 85%;
+    }
+    .fixed-header .header .header_logo_box img {
+        width: 80%;
+    }
+    .fixed-header .header_logo_box{
+        width: 100%;
+    }
+    .fixed-header .get_sticky_header{
+        padding: 5px 0px;
+    }
+    .slider.style_four .slide-item-content .content_right,
+    .slider.style_four .slide-item-content .content_left
+    {
+        text-align: center !important;
+    }
+    .mobile_pd_top_30{
+        padding-top: 30px!important;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .banner_section_hm_16 .inner_section .team_intro_box .team_intro_inner .team_intro_start .left_content{
+        padding: 24px 16px 14px;
+    }
+    .banner-section-icon .service_box.style_one .service_content{
+        padding: 10px;
+    }
+    .banner-section-icon .service_box{
+        margin-top: 30px;
+    }
+    .banner-section-icon .col-6{
+        padding-right: 12px;
+        padding-left: 12px;
+    }
+    .banner-section-icon .image img {
+        max-width: 20%;
+    }
+    .service_box.style_one .service_content .image {
+        margin-bottom: 10px;
+    }
+    .service_box.style_one .service_content .content_inner h2 a{
+        margin-bottom: 5px;
+    }
+    .team_intro_box .team_intro_inner .team_intro_start .title{
+        margin-bottom: 10px;
+    }
+    .mobile-log-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .mobile-log-header .mo-logo{
+        width: 60%;
+    }
+    .crt_mobile_menu .menu-box .menu-outer ul.navbar_nav{
+        padding-top: 20px;
+    }
+    .eaight-style .col-6{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .pd_zero .icon_box_all.style_five .icon_content small {
+        font-size: 22px;
+        top: 3px;
+    }
+    .pd_zero .icon_box_all.style_five .icon_content h2 {
+        font-size: 16px;
+    }
+    .icon_box_all.style_five .icon_content .icon {
+        margin-bottom: 10px;
+    }
+    .icon_box_all.style_five .icon_content .icon img {
+        width: 41px;
+    }
+    .banner-section-icon .service_box.style_one .service_content .content_inner h2 a {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    .team_intro_box .team_intro_inner .team_intro_start .title h1 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .team_intro_box .team_intro_inner .team_intro_start .quotes h5 {
+        font-size: 17px;
+        line-height: 25px;
+    }
+    .banner-section-icon .card-home p{
+        margin-bottom: 5px;
+    }
+    .pd_zero .col-xl-20 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .mobile-about .mobile-col-12 {
+        display: flex; /* Enables flexbox layout */
+        flex-direction: column; /* Stack children vertically by default */
+    }
+    
+    .about-us-image {
+        order: -1; /* Moves the image div to the top */
+    } 
+    .investment-summary .investment-item{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .investment-summary{
+        max-width: 100%;
+        padding: 10px;
+    }
+    .sme-content .seo_fact_area{
+        padding: 30px 0;
+    }
+    .sme-content .process_box.style_three .process_box_outer_three.right {
+        text-align: left;
+    }
+    .sme-content .mobile-pa{
+        padding-top: 25px;
+    }
+    .process_box.style_three .process_box_outer_three h2 a {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .sme-content .icon_box_all.style_seven .icon_content .icon span {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .sme-content .icon_box_all.style_seven .icon_content .icon {
+        min-width: 35px;
+    }
+    .sme-content .icon_box_all.style_seven .icon_content .text_box h2 a {
+        font-size: 16px;
+        line-height: 38px;
+    }
+    .about_company_inner{
+        display: none;
+    }
+    .image_boxes.style_two .authour_quotes h6 {
+        font-size: 16px;
+    }
+    .contact_box_inner .icon_bx{
+        display: none;
+    }
+    .contact_box_content.style_one .contact_box_inner.icon_yes .contnet {
+        margin-left: 0px;
+    }
+    /*bond page*/
+    .icon_box_all.style_eight .icon_content .icon {
+        min-width: 32px;
+        padding-top: 5px;
+    }
+    .icon_box_all.style_eight .icon_content .text_box h2 a {
+        font-size: 16px;
+    }
+    .bond-page .icon_box_all.style_eight{
+        height: 100%;
+    }
+    .bond-page .title_all_box.style_six .title_sections h5{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .bonds-section .title_all_box.style_six .title_sections .title{
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .fd-table table th,  .fd-table table td{
+        font-size: 14px;
+    }
+    .company-title h3{
+        font-size: 18px;
+    }
+    .pd_zero.fixed-section-top .col-xl-20{
+        width: 100%;
+    }
+    .fixed-section-top .fd-section {
+        border: 1.5px solid #204786;
+        border-radius: 8px;
+        background-color: #ECF9FF;
+    }
+    
+}
+
+.banner-block {
+    margin: 0 0 20px;
+    position: relative;
+    z-index: 9;
+}
+.home-page .banner-block:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(to right, #001a66, #001a66 23%, transparent); */
+    background: linear-gradient(to bottom, #ffffff00 -18%, #4282aa 75%);
+    pointer-events: none;
+    z-index: -1;
 }

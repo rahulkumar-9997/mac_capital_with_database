@@ -16374,7 +16374,7 @@ div#global-loader .whirly-loader:not(:required) {
   }
 }
 .sidebar .sidebar-menu, .settings-sidebar .sidebar-menu {
-  padding: 24px;
+  padding: 10px 5px;
 }
 .sidebar .sidebar-menu > ul > li, .settings-sidebar .sidebar-menu > ul > li {
   margin-bottom: 16px;
@@ -17045,7 +17045,7 @@ body.mini-sidebar.expand-menu .sidebar .sidebar-menu > ul > li.submenu-open ul l
   align-items: center;
   padding: 0 24px;
   height: 65px;
-  background: #d40000a3;
+  background: #fff;
   /* border-bottom: 1px solid #E6EAED; */
 }
 .sidebar .sidebar-logo .logo img {
