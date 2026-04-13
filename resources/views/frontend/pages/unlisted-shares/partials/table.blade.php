@@ -12,7 +12,7 @@
             <div class="share-card__col-headers">
                 <div class="col-header">Script name</div>
                 <div class="col-header col-header--center">Face value</div>
-                <div class="col-header col-header--center">Landing price</div>
+                <!-- <div class="col-header col-header--center">Landing price</div> -->
             </div>
             <div class="share-card__body">
                 @if($list->items->count() > 0)
@@ -24,9 +24,9 @@
                     <div class="share-cell share-cell--center">
                         {{ $item->face_value ?? '—' }}
                     </div>
-                    <div class="share-cell share-cell--price">
+                    <!-- <div class="share-cell share-cell--price">
                         {{ $item->landing_price ?? '—' }}
-                    </div>
+                    </div> -->
                 </div>
                 @endforeach
                 @else

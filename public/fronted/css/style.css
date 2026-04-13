@@ -566,7 +566,8 @@ input[type="password"]{
 
 .share-card__col-headers {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    /* grid-template-columns: 2fr 1fr 1fr; */
+    grid-template-columns: 2fr 1fr;
     background: #4282aa;
     border-bottom: 1px solid #031d32;
 }
@@ -586,7 +587,8 @@ input[type="password"]{
 
 .share-row {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    /* grid-template-columns: 2fr 1fr 1fr; */
+    grid-template-columns: 2fr 1fr;
     border-bottom: 1px solid #f0ece4;
     align-items: center;
     transition: background 0.15s;
