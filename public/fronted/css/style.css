@@ -516,3 +516,116 @@ input[type="password"]{
   padding: 50px 0px;
 }
 
+/*unlisted share*/
+/* Add this to your stylesheet */
+.shares-wrapper { padding: 1rem 0; }
+
+.shares-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .shares-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.share-card {
+    border: 1px solid #e2d9c8;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.share-card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 18px;
+    background: #011b30;
+    border-bottom: 1px solid #40647d;
+}
+
+.share-card__title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.share-card__date {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+    background: rgb(66 130 170);
+    padding: 3px 10px;
+    border-radius: 20px;
+}
+
+.share-card__col-headers {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    background: #4282aa;
+    border-bottom: 1px solid #031d32;
+}
+
+.col-header {
+    padding: 8px 12px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fbfbfb;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.col-header--center { text-align: center; }
+
+.share-card__body { padding: 4px 0; }
+
+.share-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    border-bottom: 1px solid #f0ece4;
+    align-items: center;
+    transition: background 0.15s;
+}
+
+.share-row:last-child { border-bottom: none; }
+.share-row:hover { background: #446b860d; }
+.share-row--alt { background: #446b860d; }
+.share-row--alt:hover { background: #446b860d; }
+.unlisted-share-btn{
+  text-align: center;
+}
+.unlisted-share-btn .theme-btn.one{
+    background: #fff;
+    color: var(--primary-color-one);
+    border-radius:10px
+}
+.share-cell {
+    padding: 8px 10px;
+    font-size: 16px;
+    color: #4a4e56;
+ }
+.share-cell--script { font-weight: 500; }
+.share-cell--center {
+  text-align: center;
+  color: #4a4e56;
+  font-size: 16px;
+}
+.share-cell--price {
+  text-align: center;
+  font-weight: 600;
+  color: #4282aa;
+}
+
+.share-empty {
+    padding: 24px;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+}
+/*unlisted share*/
+

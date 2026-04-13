@@ -690,6 +690,17 @@ a.call-now-text:focus{
 }
 
 @media (max-width: 768px) {
+    .unlisted-shares-sectio .pd_top_60,
+    .contact-section .pd_top_90{
+        padding-top: 36px !important;
+    }
+    .share-cell,
+    .share-cell--center{
+        font-size: 14px;
+    }
+    .share-card__header{
+        padding: 12px 9px;
+    }
     .banner_section_hm_16 .inner_section .team_intro_box .team_intro_inner .team_intro_start .left_content{
         padding: 24px 16px 14px;
     }

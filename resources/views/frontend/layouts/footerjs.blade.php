@@ -14,7 +14,7 @@
 <script type='text/javascript' src="{{asset('fronted/js/wow.min.js')}}"></script>
 
 <script type='text/javascript' src="{{asset('fronted/js/creote-extension.js')}}"></script>
-<script type='text/javascript' src="{{asset('fronted/js/mac.js')}}"></script>
+<script type='text/javascript' src="{{asset('fronted/js/mac.js')}}?v={{ env('ASSET_VERSION') }}"></script>
 <!---========================== javascript ==========================-->
 <script>
   new WOW().init();

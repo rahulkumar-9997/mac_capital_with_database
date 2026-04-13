@@ -105,6 +105,17 @@
                         <li><a href="{{ route('menus.create') }}">Create Menu</a></li>
                      </ul>
                   </li>
+                  <li class="submenu">
+                     <a href="javascript:void(0);">
+                        <i class="ti ti-layout-grid-add fs-16 me-2"></i>
+                        <span>Manage Unlisted Shares</span>
+                        <span class="menu-arrow"></span>
+                     </a>
+                     <ul>         
+                        <li><a href="{{ route('manage-unlisted-shares.index') }}">List</a></li>               
+                        <li><a href="{{ route('manage-unlisted-shares.create') }}">Create Shares</a></li>                       
+                     </ul>
+                  </li>
 
                </ul>
             </li>

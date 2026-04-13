@@ -192,10 +192,13 @@
                                                     <span>EKYC</span>
                                                 </a>
                                             </li>
-                                            
+                                            <li class="menu-item nav-item">
+                                                <a href="{{ route('unlisted-shares') }}" class="dropdown-item nav-link">
+                                                    <span>Unlisted Shares List</span>
+                                                </a>
+                                            </li>                                            
                                         </ul>
                                     </li>
-
                                     <li class="menu-item  nav-item d-md-block d-lg-none">
                                         <a href="{{route('contact-us')}}" class="dropdown-item nav-link">
                                             <span>Contact Us</span>

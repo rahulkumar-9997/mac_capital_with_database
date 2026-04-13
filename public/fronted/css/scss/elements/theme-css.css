@@ -2115,6 +2115,17 @@ body.error404 .left-sidebar .content-area {
 }
 
 @media (max-width: 992px) {
+  .unlisted-shares-sectio .pd_top_60,
+  .contact-section .pd_top_90{
+    padding-top: 36px !important;
+  }
+  .share-cell,
+  .share-cell--center{
+    font-size: 14px;
+  }
+  .share-card__header{
+    padding: 12px 9px;
+  }
   .page_header_default {
     padding: 15px 0px;
     min-height: auto;

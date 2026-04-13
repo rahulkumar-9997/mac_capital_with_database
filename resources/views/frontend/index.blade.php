@@ -108,6 +108,12 @@
                                     </div>
 
                                  </div>
+                                 <div class="unlisted-share-btn">
+                                    <a href="{{ route('unlisted-shares') }}" class="theme-btn one">
+                                       Unlisted Shares List
+                                       <i class="icon-right-arrow"></i>
+                                    </a>
+                                 </div>
                               </div>
                            </div>
                         </div>

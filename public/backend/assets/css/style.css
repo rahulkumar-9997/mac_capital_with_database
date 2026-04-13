@@ -6997,11 +6997,11 @@ caption {
   background-color: #D3D5D7;
 }
 .table th {
-  padding: 10px 20px;
-  vertical-align: middle;
-  line-height: 1.462;
-  font-size: 0.813rem;
-  white-space: nowrap;
+    padding: 5px 10px;
+    vertical-align: middle;
+    line-height: 1.462;
+    font-size: 0.813rem;
+    white-space: nowrap;
 }
 .table td {
   padding: 5px 10px;
@@ -7011,10 +7011,10 @@ caption {
   white-space: nowrap;
 }
 .table thead tr th {
-  font-weight: 600;
-  font-size: 14px;
-  background-color: #E6EAED;
-  color: #212B36;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: #f2f7fb;
+    color: #212B36;
 }
 .table.table-sm > :not(caption) > * > * {
   padding: 0.3rem;

@@ -22,7 +22,7 @@
         <div class="account-content">
             <div class="login-wrapper login-new">
                 <div class="row w-100">
-                    <div class="col-lg-5 mx-auto">
+                    <div class="col-lg-4 mx-auto">
                         <div class="login-content user-login">
                             <div class="login-logo">
                                 <img src="{{asset('backend/assets/mac-img/mac-capital-logo.png')}}" alt="img">

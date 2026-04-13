@@ -7,11 +7,9 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Log;
 use App\Mail\ContactFormMail; 
 use App\Mail\EachPageFormMail; 
+use App\Models\UnlistedShareList;
+use App\Models\UnlistedShareItem;
 use Exception;
-use Auth;
-use Session;
-use DB;
-use Hash;
 use Illuminate\Support\Facades\Validator;
 class FrontHomeController extends Controller
 {
@@ -503,5 +501,22 @@ class FrontHomeController extends Controller
             'status' => 'success',
             'message' => 'Your message has been sent successfully, Our team contact you shortly.!',
         ]);
+    }
+
+    public function unlistedShareList(Request $request)
+    {
+        $query = UnlistedShareList::with('items')->latest();
+        // if ($request->filled('from_date') && $request->filled('to_date')) {
+        //     $query->whereBetween('for_date', [$request->from_date, $request->to_date]);
+        // } elseif ($request->filled('from_date')) {
+        //     $query->whereDate('for_date', '>=', $request->from_date);
+        // } elseif ($request->filled('to_date')) {
+        //     $query->whereDate('for_date', '<=', $request->to_date);
+        // }
+        $lists = $query->paginate(50);
+        if ($request->ajax()) {
+            return view('frontend.pages.unlisted-shares.partials.table', compact('lists'))->render();
+        }
+        return view('frontend.pages.unlisted-shares.index', compact('lists'));
     }
 }

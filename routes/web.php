@@ -9,6 +9,7 @@ use App\Http\Controllers\Backend\DashboardController;
 use App\Http\Controllers\Backend\CacheController;
 use App\Http\Controllers\Backend\PageController;
 use App\Http\Controllers\Backend\MenuController;
+use App\Http\Controllers\Backend\UnlistedSharesController;
 /**Backend controller */
 
 
@@ -49,6 +50,8 @@ Route::group(['middleware' => ['auth']], function() {
     Route::put('menu/{menu}/item/{item}', [MenuController::class, 'updateItem'])->name('menu.item.update');
     Route::delete('menu/{menu}/item/{item}', [MenuController::class, 'destroyItem'])->name('menu.item.destroy');
     Route::post('menus/{menu}/items/order', [MenuController::class, 'orderItems'])->name('menus.items.order');
+
+    Route::resource('manage-unlisted-shares', UnlistedSharesController::class);
 });
 
 Route::middleware([TrackVisitor::class])->group(function () {
@@ -185,6 +188,8 @@ Route::middleware([TrackVisitor::class])->group(function () {
     Route::get('contact-us', [FrontHomeController::class, 'contactUs'])->name('contact-us');
     Route::POST('contact-us/store', [FrontHomeController::class, 'contactUsSubmit'])->name('contact-us.store');
 
+    Route::get('unlisted-shares', [FrontHomeController::class, 'unlistedShareList'])->name('unlisted-shares');
+    
     Route::post('each-contact', [FrontHomeController::class, 'eachContactForm'])->name('each-contact');
     Route::POST('each-contact/store', [FrontHomeController::class, 'eachContactSubmitForm'])->name('each-contact.store');
     Route::get('fixed-deposit', [FrontHomeController::class, 'fixedDeposit'])->name('fixed-deposit');

@@ -14,8 +14,9 @@
 <script src="{{asset('backend/assets/plugins/select2/js/select2.min.js')}}"></script>
 <!-- Datetimepicker JS -->
 <script src="{{asset('backend/assets/js/moment.min.js')}}"></script>
+<script src="{{asset('backend/assets/plugins/flatpickr/flatpickr.js')}}" type="text/javascript"></script>
 <script src="{{asset('backend/assets/js/bootstrap-datetimepicker.min.js')}}"></script>
-<!-- Bootstrap Tagsinput JS -->
+<!-- <script src="{{asset('backend/assets/plugins/daterangepicker/daterangepicker.js')}}" type="text/javascript"></script> -->
 <script src="{{asset('backend/assets/plugins/bootstrap-tagsinput/bootstrap-tagsinput.js')}}"></script>
 <script src="{{asset('backend/assets/js/script.js')}}"></script>
 <script src="{{asset('backend/assets/plugins/toastr/toastify-js.js')}}"></script>

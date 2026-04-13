@@ -31,14 +31,14 @@
 <link rel='stylesheet' href="{{asset('fronted/css/icomoon.css')}}" type='text/css' media='all' />
 <link rel='stylesheet' href="{{asset('fronted/css/flexslider.css')}}" type='text/css' media='all' />
 <link rel='stylesheet' href="{{asset('fronted/css/font-awesome.min.css')}}" type='text/css' media='all' />
-<link rel='stylesheet' href="{{asset('fronted/css/style.css')}}" type='text/css' media='all' />
-<link rel='stylesheet' href="{{asset('fronted/css/scss/elements/theme-css.css')}}" type='text/css' media='all' />
+<link rel='stylesheet' href="{{asset('fronted/css/style.css')}}?v={{ env('ASSET_VERSION') }}" type='text/css' media='all' />
+<link rel='stylesheet' href="{{asset('fronted/css/scss/elements/theme-css.css')}}?v={{ env('ASSET_VERSION') }}" type='text/css' media='all' />
 <link rel='stylesheet' id="creote-color-switcher-css" href="{{asset('fronted/css/scss/elements/color-switcher/color.css')}}" type='text/css' media='all' />
 <!-- Style-->
 <!----woocommerce---->
-<link rel='stylesheet' href="{{asset('fronted/css/woocommerce-layout.css')}}" type='text/css' media='all' />
+<link rel='stylesheet' href="{{asset('fronted/css/woocommerce-layout.css')}}?v={{ env('ASSET_VERSION') }}" type='text/css' media='all' />
 <link rel='stylesheet' href="{{asset('fronted/css/woocommerce.css')}}" type='text/css' media='all' />
-<link rel='stylesheet' href="{{asset('fronted/css/mac-capital.css')}}" type='text/css' media='all' />
+<link rel='stylesheet' href="{{asset('fronted/css/mac-capital.css')}}?v={{ env('ASSET_VERSION') }}" type='text/css' media='all' />
 <link rel='stylesheet' href="{{asset('fronted/css/animate.min.css')}}" type='text/css' media='all' />
 <!----woocommerce---->
 
