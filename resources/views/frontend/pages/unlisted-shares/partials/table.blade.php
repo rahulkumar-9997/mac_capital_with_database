@@ -24,15 +24,23 @@
                     <div class="share-cell share-cell--center">
                         {{ $item->face_value ?? '—' }}
                     </div>
-                    <!-- <div class="share-cell share-cell--price">
-                        {{ $item->landing_price ?? '—' }}
-                    </div> -->
+                    <div class="share-cell share-cell--price">
+                        <button class="theme-btn one btn-sm"
+                        data-scriptName="{{ $item->script_name ?? '—' }}"
+                        data-faceValue="{{ $item->face_value ?? '—' }}"
+                        data-route="{{ route('interested-shares-enquiry') }}"
+                        data-ajax-modal-shares="true"
+                        >
+                            I am interested
+                        </button>
+                    </div>
                 </div>
                 @endforeach
                 @else
                 <div class="share-empty">No data available</div>
                 @endif
             </div>
+
         </div>
         @endforeach
     </div>

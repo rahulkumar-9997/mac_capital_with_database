@@ -6,7 +6,8 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Support\Facades\Log;
 use App\Mail\ContactFormMail; 
-use App\Mail\EachPageFormMail; 
+use App\Mail\EachPageFormMail;
+use App\Mail\UnlistedSharesEnquiryMail; 
 use App\Models\UnlistedShareList;
 use App\Models\UnlistedShareItem;
 use Exception;
@@ -506,17 +507,116 @@ class FrontHomeController extends Controller
     public function unlistedShareList(Request $request)
     {
         $query = UnlistedShareList::with('items')->latest();
-        // if ($request->filled('from_date') && $request->filled('to_date')) {
-        //     $query->whereBetween('for_date', [$request->from_date, $request->to_date]);
-        // } elseif ($request->filled('from_date')) {
-        //     $query->whereDate('for_date', '>=', $request->from_date);
-        // } elseif ($request->filled('to_date')) {
-        //     $query->whereDate('for_date', '<=', $request->to_date);
-        // }
         $lists = $query->paginate(50);
         if ($request->ajax()) {
             return view('frontend.pages.unlisted-shares.partials.table', compact('lists'))->render();
         }
         return view('frontend.pages.unlisted-shares.index', compact('lists'));
+    }
+
+    public function interestedSharesEnquiryForm(Request $request){
+        $scriptname = $request->input('scriptname'); 
+        $facevalue = $request->input('facevalue'); 
+        
+        $form ='
+        <div class="modal-popup-inner unlisted-share-modal">
+            <div class="close-modal">
+            <i class="fa fa-times"></i>
+            </div>
+            <div class="modal_box">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 form_inner">
+                        <div class="form_content">
+                            <div class="modal-page-title">
+                                <h3>'.$scriptname.' </h3>
+                            </div>
+                            <form class="contact-form each-contact" method="post" action="'.route('interested-shares-enquiry.store').'" id="unlistedShareForm" accept-charset="UTF-8" enctype="multipart/form-data">
+                                '.csrf_field().'
+                                <input type="hidden" name="script_name" value="'.$scriptname.'"/>
+                                <input type="hidden" name="face_value" value="'.$facevalue.'"/>
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12 pe-xl-0 ps-xl-2">
+                                        <p>
+                                            <label>
+                                                <input type="text" name="name" value="" size="40" placeholder="Enter Your Name *" id="name" class="feed"/>
+                                            </label>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 pe-xl-0 ps-xl-2">
+                                        <p>
+                                            <label> 
+                                                <input type="email" name="email" placeholder="Enter Your Email *" class="feed" id="email"/>
+                                            </label>
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 pe-xl-0 ps-xl-2">
+                                        <p>
+                                            <label> 
+                                                <input type="text" name="phonenumber" id="phonenumber" placeholder="Enter Your Phone Number *" class="feed" maxlength="10" pattern="[0-9]{10}" title="Please enter a 10-digit phone number" />
+
+                                            </label>
+                                        </p>
+                                    </div>
+                                    
+                                    
+                                    <div class="col-lg-12 col-md-12 pe-xl-0 ps-xl-2">
+                                        <p>
+                                            <label>
+                                                <textarea 
+                                                    name="message" 
+                                                    cols="10" 
+                                                    rows="3" 
+                                                    class="wpcf7-form-control wpcf7-textarea" 
+                                                    placeholder="Enter Your Message"></textarea>
+                                            </label>
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                    <p><button type="submit" class="theme-btn three w-100">Submit</button></p>
+                                </form>
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+            </div>
+        </div>';
+        return response()->json([
+            'status' => 'success',
+            'message' => 'Enquiry created successfully',
+            'form' => $form,
+        ], 200);
+    }
+
+    public function interestedSharesEnquiryFormSubmit(Request $request){
+        $validator = Validator::make($request->all(), [
+            'script_name' => 'required|string|max:255',
+            'face_value' => 'required|string|max:255',
+            'name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'phonenumber' => 'required|digits_between:10,15',
+            
+        ]);
+        if ($validator->fails()) {
+            return response()->json([
+                'status' => 'error',
+                'errors' => $validator->errors()
+            ], 422);
+        }
+        $data = [
+            'script_name' => $request->input('script_name'),
+            'face_value' => $request->input('face_value'),
+            'name' => $request->input('name'),
+            'email' => $request->input('email'),
+            'phone' => $request->input('phonenumber'),
+            'message' => $request->input('message'),
+        ];
+        
+        Mail::to('achintya@maccapital.in') 
+            ->send(new UnlistedSharesEnquiryMail($data));
+        return response()->json([
+            'status' => 'success',
+            'message' => 'Your message has been sent successfully, Our team contact you shortly.!',
+        ]);
     }
 }

@@ -566,10 +566,30 @@ input[type="password"]{
 
 .share-card__col-headers {
     display: grid;
-    /* grid-template-columns: 2fr 1fr 1fr; */
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     background: #4282aa;
     border-bottom: 1px solid #031d32;
+}
+.share-card__body .theme-btn.one {
+    display: inline-block;
+    padding: 0px 0px;
+    border-radius: 4px;
+    background: var(--primary-color-one);
+    color: #fff;
+    border: 1px solid var(--primary-color-one);
+    line-height: 35px;
+    min-height: 38px;
+    min-width: 130px;
+    font-weight: 600;
+    font-size: 14px;
+    text-align: center;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+.share-card__body .theme-btn.one:hover{
+  border-radius: 4px;
 }
 
 .col-header {
@@ -587,8 +607,7 @@ input[type="password"]{
 
 .share-row {
     display: grid;
-    /* grid-template-columns: 2fr 1fr 1fr; */
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr;
     border-bottom: 1px solid #f0ece4;
     align-items: center;
     transition: background 0.15s;

@@ -117,6 +117,91 @@ $(document).ready(function() {
 			}
 		});
 	});
+	/*Unlisted Shares Modal */
+	$(document).on('click', 'button[data-ajax-modal-shares="true"]', function() {
+		var scriptname = $(this).data('scriptname');
+		var facevalue = $(this).data('facevalue');
+		var route = $(this).data('route');
+		var csrfToken = $('meta[name="csrf-token"]').attr('content');		
+		$.ajax({
+			url: route,
+			type: 'POST',
+			data: {
+				scriptname: scriptname,
+				facevalue: facevalue,
+			},
+			headers: {
+				'X-CSRF-TOKEN': csrfToken
+			},
+			success: function(response) {
+				console.log('Success response:', response);
+				if (response.status === 'success' && response.form) {
+					$('#enquiryModalForm').html(response.form);
+					$('.modal_popup').addClass('contact-popup-visible');
+				} else {
+					console.error('Unexpected response format:', response);
+				}
+			},
+			error: function(jqXHR, textStatus, errorThrown) {
+				console.log('AJAX Error:', jqXHR, textStatus, errorThrown);
+				if (jqXHR.status === 419) {
+					console.error('Session expired. Reloading page.');
+					document.location.reload();
+				} else if (jqXHR.status === 409) {
+					console.error('CSRF Token mismatch or conflict.');
+				} else {
+					console.error('Unexpected error:', jqXHR.responseText);
+				}
+			}
+		});
+	});
+	$(document).off('submit', '#unlistedShareForm').on('submit', '#unlistedShareForm', function(event) {
+		event.preventDefault();
+		var form = $(this);
+		var submitButton = form.find('button[type="submit"]');
+		$('.form-control').removeClass('is-invalid');
+		$('.invalid-feedback').remove();
+		submitButton.prop('disabled', true).html('<span class="each-spinner spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Submitting...');
+		var formData = new FormData(this);
+		$.ajax({
+			url: form.attr('action'),
+			type: 'POST',
+			data: formData,
+			processData: false,
+			contentType: false,
+			success: function(response) {
+				submitButton.prop('disabled', false).html('Submit');
+				if(response.status === 'success') {
+					form[0].reset();
+					$('.modal_popup').removeClass('contact-popup-visible');
+					$('#toast-messagejs').text(response.message);
+					$('#toastjs').addClass('show');
+					setTimeout(function() {
+						$('#toastjs').removeClass('show');
+					}, 5000);
+				}
+			},
+			error: function(xhr) {
+				submitButton.prop('disabled', false).html('Submit');
+				var errors = xhr.responseJSON.errors;
+				if(errors) {
+					$.each(errors, function(key, value) {
+						var inputField = $('#' + key);
+						inputField.addClass('is-invalid');
+						inputField.after('<div class="invalid-feedback">' + value[0] + '</div>');
+					});
+				} else {
+					$('.modal_popup').removeClass('contact-popup-visible');
+					$('#toast-messagejs').text('Something went wrong. Please try again.');
+					$('#toastjs').addClass('show');
+					setTimeout(function() {
+						$('#toastjs').removeClass('show');
+					}, 5000);
+				}
+			}
+		});
+	});
+	/*Unlisted Shares Modal */
 });
 $(document).ready(function() {
 	if($('#toast-messagejs').text().length > 0) {
