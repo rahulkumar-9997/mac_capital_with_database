@@ -1,7 +1,6 @@
 @extends('backend.layouts.master')
 @section('title','Create Unlisted Shares')
 @push('styles')
-
 @endpush
 @section('main-content')
 <div class="content">
@@ -118,6 +117,32 @@ $(document).ready(function(){
             alert('At least one row required');
         }
     });
+    /*Copy Paste */
+    $(document).on('paste', 'input[name="script_name[]"]', function(e){
+        let pastedData = (e.originalEvent || e).clipboardData.getData('text');
+        let lines = pastedData.split('\n');
+        if(lines.length > 1){
+            e.preventDefault();
+
+            $('#shareTable tbody').empty();
+            lines.forEach(function(line, index){
+                line = line.trim();
+                if(line === '') return;
+                let parts = line.split(' ');
+                let face_value = parts.pop();
+                let name = parts.join(' '); 
+                let row = `
+                <tr>
+                    <td><input type="text" name="script_name[]" class="form-control" value="${name}"></td>
+                    <td><input type="text" name="face_value[]" class="form-control" value="${face_value}"></td>
+                    <td><input type="text" name="landing_price[]" class="form-control"></td>
+                    <td><button type="button" class="btn btn-danger btn-sm removeRow">Remove</button></td>
+                </tr>`;
+                $('#shareTable tbody').append(row);
+            });
+        }
+    });
+    /*Copy Paste */
 });
 </script>
 <script>
